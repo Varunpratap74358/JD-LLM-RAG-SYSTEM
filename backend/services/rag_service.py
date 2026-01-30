@@ -1,7 +1,14 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from backend.services.ai_service import ai_service
-from backend.utils.vector_db import vector_db
-from backend.utils.database import mongo_db
+try:
+    # When running from project root (package mode)
+    from backend.services.ai_service import ai_service
+    from backend.utils.vector_db import vector_db
+    from backend.utils.database import mongo_db
+except ModuleNotFoundError:
+    # When running from inside backend/ (module mode)
+    from services.ai_service import ai_service
+    from utils.vector_db import vector_db
+    from utils.database import mongo_db
 import uuid
 import time
 
