@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+google-generativeai
+cohere
+pinecone
+pymongo[srv]
+motor
+python-dotenv
+pydantic
+pydantic-settings
+langchain-text-splitters
+tiktoken
+python-multipart
