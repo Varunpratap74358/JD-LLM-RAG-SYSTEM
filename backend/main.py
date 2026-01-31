@@ -16,10 +16,14 @@ try:
     from backend.utils.database import mongo_db
     from backend.utils.vector_db import vector_db
     from backend.services.rag_service import rag_service
+    from backend.services.faq_service import faq_service
 except ModuleNotFoundError:
     from utils.database import mongo_db
     from utils.vector_db import vector_db
     from services.rag_service import rag_service
+    from services.faq_service import faq_service
+
+
 
 app = FastAPI(title="Mini RAG API")
 
@@ -42,8 +46,12 @@ class QueryRequest(BaseModel):
 
 @app.on_event("startup")
 async def startup_db_client():
-    await mongo_db.connect()
-    vector_db.connect()
+    try:
+        await mongo_db.connect()
+        vector_db.connect()
+        await faq_service.initialize()
+    except Exception as e:
+        print(f"Startup failed: {e}")
 
 @app.on_event("shutdown")
 async def shutdown_db_client():
@@ -72,6 +80,20 @@ async def ingest_text(request: IngestRequest):
 @app.post("/query") 
 async def query_rag(request: QueryRequest):
     try:
+        # 1. FAST FAQ LAYER
+        faq_result = await faq_service.get_answer(request.query)
+        if faq_result:
+             return {
+                 "answer": faq_result["answer"],
+                 "sources": [{"text": "FAQ Database", "metadata": {"source": "faq", "type": faq_result["source"]}}],
+                 "metrics": {
+                     "time_seconds": 0.05,
+                     "tokens": 0,
+                     "cost_estimate": 0.0
+                 }
+             }
+
+        # 2. SLOW RAG LAYER
         result = await rag_service.query(request.query)
         return result
     except Exception as e:

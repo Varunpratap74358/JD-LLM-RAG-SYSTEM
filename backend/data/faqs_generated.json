@@ -1,0 +1,3316 @@
+[
+    {
+        "id": "faq_0001",
+        "question": "Do you work with React.js?",
+        "variations": [
+            "Is React.js part of your tech stack?",
+            "Can you build apps using React.js?",
+            "Do you have experience with React.js?",
+            "Are you experts in React.js?"
+        ],
+        "answer": "Yes, React.js is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using React.js."
+    },
+    {
+        "id": "faq_0002",
+        "question": "Can I hire a React.js developer?",
+        "variations": [
+            "Do you offer React.js consulting?",
+            "I need a React.js expert",
+            "Looking for React.js development services"
+        ],
+        "answer": "Yes, we provide dedicated React.js developers and consulting services. Our team creates high-performance solutions tailored to your business needs using React.js."
+    },
+    {
+        "id": "faq_0003",
+        "question": "Do you work with Next.js?",
+        "variations": [
+            "Is Next.js part of your tech stack?",
+            "Can you build apps using Next.js?",
+            "Do you have experience with Next.js?",
+            "Are you experts in Next.js?"
+        ],
+        "answer": "Yes, Next.js is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using Next.js."
+    },
+    {
+        "id": "faq_0004",
+        "question": "Can I hire a Next.js developer?",
+        "variations": [
+            "Do you offer Next.js consulting?",
+            "I need a Next.js expert",
+            "Looking for Next.js development services"
+        ],
+        "answer": "Yes, we provide dedicated Next.js developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Next.js."
+    },
+    {
+        "id": "faq_0005",
+        "question": "Do you work with Angular?",
+        "variations": [
+            "Is Angular part of your tech stack?",
+            "Can you build apps using Angular?",
+            "Do you have experience with Angular?",
+            "Are you experts in Angular?"
+        ],
+        "answer": "Yes, Angular is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using Angular."
+    },
+    {
+        "id": "faq_0006",
+        "question": "Can I hire a Angular developer?",
+        "variations": [
+            "Do you offer Angular consulting?",
+            "I need a Angular expert",
+            "Looking for Angular development services"
+        ],
+        "answer": "Yes, we provide dedicated Angular developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Angular."
+    },
+    {
+        "id": "faq_0007",
+        "question": "Do you work with Tailwind CSS?",
+        "variations": [
+            "Is Tailwind CSS part of your tech stack?",
+            "Can you build apps using Tailwind CSS?",
+            "Do you have experience with Tailwind CSS?",
+            "Are you experts in Tailwind CSS?"
+        ],
+        "answer": "Yes, Tailwind CSS is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using Tailwind CSS."
+    },
+    {
+        "id": "faq_0008",
+        "question": "Can I hire a Tailwind CSS developer?",
+        "variations": [
+            "Do you offer Tailwind CSS consulting?",
+            "I need a Tailwind CSS expert",
+            "Looking for Tailwind CSS development services"
+        ],
+        "answer": "Yes, we provide dedicated Tailwind CSS developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Tailwind CSS."
+    },
+    {
+        "id": "faq_0009",
+        "question": "Do you work with HTML5?",
+        "variations": [
+            "Is HTML5 part of your tech stack?",
+            "Can you build apps using HTML5?",
+            "Do you have experience with HTML5?",
+            "Are you experts in HTML5?"
+        ],
+        "answer": "Yes, HTML5 is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using HTML5."
+    },
+    {
+        "id": "faq_0010",
+        "question": "Can I hire a HTML5 developer?",
+        "variations": [
+            "Do you offer HTML5 consulting?",
+            "I need a HTML5 expert",
+            "Looking for HTML5 development services"
+        ],
+        "answer": "Yes, we provide dedicated HTML5 developers and consulting services. Our team creates high-performance solutions tailored to your business needs using HTML5."
+    },
+    {
+        "id": "faq_0011",
+        "question": "Do you work with CSS3?",
+        "variations": [
+            "Is CSS3 part of your tech stack?",
+            "Can you build apps using CSS3?",
+            "Do you have experience with CSS3?",
+            "Are you experts in CSS3?"
+        ],
+        "answer": "Yes, CSS3 is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using CSS3."
+    },
+    {
+        "id": "faq_0012",
+        "question": "Can I hire a CSS3 developer?",
+        "variations": [
+            "Do you offer CSS3 consulting?",
+            "I need a CSS3 expert",
+            "Looking for CSS3 development services"
+        ],
+        "answer": "Yes, we provide dedicated CSS3 developers and consulting services. Our team creates high-performance solutions tailored to your business needs using CSS3."
+    },
+    {
+        "id": "faq_0013",
+        "question": "Do you work with JavaScript?",
+        "variations": [
+            "Is JavaScript part of your tech stack?",
+            "Can you build apps using JavaScript?",
+            "Do you have experience with JavaScript?",
+            "Are you experts in JavaScript?"
+        ],
+        "answer": "Yes, JavaScript is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using JavaScript."
+    },
+    {
+        "id": "faq_0014",
+        "question": "Can I hire a JavaScript developer?",
+        "variations": [
+            "Do you offer JavaScript consulting?",
+            "I need a JavaScript expert",
+            "Looking for JavaScript development services"
+        ],
+        "answer": "Yes, we provide dedicated JavaScript developers and consulting services. Our team creates high-performance solutions tailored to your business needs using JavaScript."
+    },
+    {
+        "id": "faq_0015",
+        "question": "Do you work with TypeScript?",
+        "variations": [
+            "Is TypeScript part of your tech stack?",
+            "Can you build apps using TypeScript?",
+            "Do you have experience with TypeScript?",
+            "Are you experts in TypeScript?"
+        ],
+        "answer": "Yes, TypeScript is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using TypeScript."
+    },
+    {
+        "id": "faq_0016",
+        "question": "Can I hire a TypeScript developer?",
+        "variations": [
+            "Do you offer TypeScript consulting?",
+            "I need a TypeScript expert",
+            "Looking for TypeScript development services"
+        ],
+        "answer": "Yes, we provide dedicated TypeScript developers and consulting services. Our team creates high-performance solutions tailored to your business needs using TypeScript."
+    },
+    {
+        "id": "faq_0017",
+        "question": "Do you work with Redux?",
+        "variations": [
+            "Is Redux part of your tech stack?",
+            "Can you build apps using Redux?",
+            "Do you have experience with Redux?",
+            "Are you experts in Redux?"
+        ],
+        "answer": "Yes, Redux is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using Redux."
+    },
+    {
+        "id": "faq_0018",
+        "question": "Can I hire a Redux developer?",
+        "variations": [
+            "Do you offer Redux consulting?",
+            "I need a Redux expert",
+            "Looking for Redux development services"
+        ],
+        "answer": "Yes, we provide dedicated Redux developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Redux."
+    },
+    {
+        "id": "faq_0019",
+        "question": "Do you work with Material UI?",
+        "variations": [
+            "Is Material UI part of your tech stack?",
+            "Can you build apps using Material UI?",
+            "Do you have experience with Material UI?",
+            "Are you experts in Material UI?"
+        ],
+        "answer": "Yes, Material UI is a core part of our Frontend technology stack. We have extensive experience building scalable and secure applications using Material UI."
+    },
+    {
+        "id": "faq_0020",
+        "question": "Can I hire a Material UI developer?",
+        "variations": [
+            "Do you offer Material UI consulting?",
+            "I need a Material UI expert",
+            "Looking for Material UI development services"
+        ],
+        "answer": "Yes, we provide dedicated Material UI developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Material UI."
+    },
+    {
+        "id": "faq_0021",
+        "question": "Do you work with Node.js?",
+        "variations": [
+            "Is Node.js part of your tech stack?",
+            "Can you build apps using Node.js?",
+            "Do you have experience with Node.js?",
+            "Are you experts in Node.js?"
+        ],
+        "answer": "Yes, Node.js is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using Node.js."
+    },
+    {
+        "id": "faq_0022",
+        "question": "Can I hire a Node.js developer?",
+        "variations": [
+            "Do you offer Node.js consulting?",
+            "I need a Node.js expert",
+            "Looking for Node.js development services"
+        ],
+        "answer": "Yes, we provide dedicated Node.js developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Node.js."
+    },
+    {
+        "id": "faq_0023",
+        "question": "Do you work with Express.js?",
+        "variations": [
+            "Is Express.js part of your tech stack?",
+            "Can you build apps using Express.js?",
+            "Do you have experience with Express.js?",
+            "Are you experts in Express.js?"
+        ],
+        "answer": "Yes, Express.js is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using Express.js."
+    },
+    {
+        "id": "faq_0024",
+        "question": "Can I hire a Express.js developer?",
+        "variations": [
+            "Do you offer Express.js consulting?",
+            "I need a Express.js expert",
+            "Looking for Express.js development services"
+        ],
+        "answer": "Yes, we provide dedicated Express.js developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Express.js."
+    },
+    {
+        "id": "faq_0025",
+        "question": "Do you work with NestJS?",
+        "variations": [
+            "Is NestJS part of your tech stack?",
+            "Can you build apps using NestJS?",
+            "Do you have experience with NestJS?",
+            "Are you experts in NestJS?"
+        ],
+        "answer": "Yes, NestJS is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using NestJS."
+    },
+    {
+        "id": "faq_0026",
+        "question": "Can I hire a NestJS developer?",
+        "variations": [
+            "Do you offer NestJS consulting?",
+            "I need a NestJS expert",
+            "Looking for NestJS development services"
+        ],
+        "answer": "Yes, we provide dedicated NestJS developers and consulting services. Our team creates high-performance solutions tailored to your business needs using NestJS."
+    },
+    {
+        "id": "faq_0027",
+        "question": "Do you work with GoLang?",
+        "variations": [
+            "Is GoLang part of your tech stack?",
+            "Can you build apps using GoLang?",
+            "Do you have experience with GoLang?",
+            "Are you experts in GoLang?"
+        ],
+        "answer": "Yes, GoLang is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using GoLang."
+    },
+    {
+        "id": "faq_0028",
+        "question": "Can I hire a GoLang developer?",
+        "variations": [
+            "Do you offer GoLang consulting?",
+            "I need a GoLang expert",
+            "Looking for GoLang development services"
+        ],
+        "answer": "Yes, we provide dedicated GoLang developers and consulting services. Our team creates high-performance solutions tailored to your business needs using GoLang."
+    },
+    {
+        "id": "faq_0029",
+        "question": "Do you work with Python?",
+        "variations": [
+            "Is Python part of your tech stack?",
+            "Can you build apps using Python?",
+            "Do you have experience with Python?",
+            "Are you experts in Python?"
+        ],
+        "answer": "Yes, Python is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using Python."
+    },
+    {
+        "id": "faq_0030",
+        "question": "Can I hire a Python developer?",
+        "variations": [
+            "Do you offer Python consulting?",
+            "I need a Python expert",
+            "Looking for Python development services"
+        ],
+        "answer": "Yes, we provide dedicated Python developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Python."
+    },
+    {
+        "id": "faq_0031",
+        "question": "Do you work with FastAPI?",
+        "variations": [
+            "Is FastAPI part of your tech stack?",
+            "Can you build apps using FastAPI?",
+            "Do you have experience with FastAPI?",
+            "Are you experts in FastAPI?"
+        ],
+        "answer": "Yes, FastAPI is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using FastAPI."
+    },
+    {
+        "id": "faq_0032",
+        "question": "Can I hire a FastAPI developer?",
+        "variations": [
+            "Do you offer FastAPI consulting?",
+            "I need a FastAPI expert",
+            "Looking for FastAPI development services"
+        ],
+        "answer": "Yes, we provide dedicated FastAPI developers and consulting services. Our team creates high-performance solutions tailored to your business needs using FastAPI."
+    },
+    {
+        "id": "faq_0033",
+        "question": "Do you work with Django?",
+        "variations": [
+            "Is Django part of your tech stack?",
+            "Can you build apps using Django?",
+            "Do you have experience with Django?",
+            "Are you experts in Django?"
+        ],
+        "answer": "Yes, Django is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using Django."
+    },
+    {
+        "id": "faq_0034",
+        "question": "Can I hire a Django developer?",
+        "variations": [
+            "Do you offer Django consulting?",
+            "I need a Django expert",
+            "Looking for Django development services"
+        ],
+        "answer": "Yes, we provide dedicated Django developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Django."
+    },
+    {
+        "id": "faq_0035",
+        "question": "Do you work with GraphQL?",
+        "variations": [
+            "Is GraphQL part of your tech stack?",
+            "Can you build apps using GraphQL?",
+            "Do you have experience with GraphQL?",
+            "Are you experts in GraphQL?"
+        ],
+        "answer": "Yes, GraphQL is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using GraphQL."
+    },
+    {
+        "id": "faq_0036",
+        "question": "Can I hire a GraphQL developer?",
+        "variations": [
+            "Do you offer GraphQL consulting?",
+            "I need a GraphQL expert",
+            "Looking for GraphQL development services"
+        ],
+        "answer": "Yes, we provide dedicated GraphQL developers and consulting services. Our team creates high-performance solutions tailored to your business needs using GraphQL."
+    },
+    {
+        "id": "faq_0037",
+        "question": "Do you work with REST API?",
+        "variations": [
+            "Is REST API part of your tech stack?",
+            "Can you build apps using REST API?",
+            "Do you have experience with REST API?",
+            "Are you experts in REST API?"
+        ],
+        "answer": "Yes, REST API is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using REST API."
+    },
+    {
+        "id": "faq_0038",
+        "question": "Can I hire a REST API developer?",
+        "variations": [
+            "Do you offer REST API consulting?",
+            "I need a REST API expert",
+            "Looking for REST API development services"
+        ],
+        "answer": "Yes, we provide dedicated REST API developers and consulting services. Our team creates high-performance solutions tailored to your business needs using REST API."
+    },
+    {
+        "id": "faq_0039",
+        "question": "Do you work with Socket.IO?",
+        "variations": [
+            "Is Socket.IO part of your tech stack?",
+            "Can you build apps using Socket.IO?",
+            "Do you have experience with Socket.IO?",
+            "Are you experts in Socket.IO?"
+        ],
+        "answer": "Yes, Socket.IO is a core part of our Backend technology stack. We have extensive experience building scalable and secure applications using Socket.IO."
+    },
+    {
+        "id": "faq_0040",
+        "question": "Can I hire a Socket.IO developer?",
+        "variations": [
+            "Do you offer Socket.IO consulting?",
+            "I need a Socket.IO expert",
+            "Looking for Socket.IO development services"
+        ],
+        "answer": "Yes, we provide dedicated Socket.IO developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Socket.IO."
+    },
+    {
+        "id": "faq_0041",
+        "question": "Do you work with MongoDB?",
+        "variations": [
+            "Is MongoDB part of your tech stack?",
+            "Can you build apps using MongoDB?",
+            "Do you have experience with MongoDB?",
+            "Are you experts in MongoDB?"
+        ],
+        "answer": "Yes, MongoDB is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using MongoDB."
+    },
+    {
+        "id": "faq_0042",
+        "question": "Can I hire a MongoDB developer?",
+        "variations": [
+            "Do you offer MongoDB consulting?",
+            "I need a MongoDB expert",
+            "Looking for MongoDB development services"
+        ],
+        "answer": "Yes, we provide dedicated MongoDB developers and consulting services. Our team creates high-performance solutions tailored to your business needs using MongoDB."
+    },
+    {
+        "id": "faq_0043",
+        "question": "Do you work with PostgreSQL?",
+        "variations": [
+            "Is PostgreSQL part of your tech stack?",
+            "Can you build apps using PostgreSQL?",
+            "Do you have experience with PostgreSQL?",
+            "Are you experts in PostgreSQL?"
+        ],
+        "answer": "Yes, PostgreSQL is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using PostgreSQL."
+    },
+    {
+        "id": "faq_0044",
+        "question": "Can I hire a PostgreSQL developer?",
+        "variations": [
+            "Do you offer PostgreSQL consulting?",
+            "I need a PostgreSQL expert",
+            "Looking for PostgreSQL development services"
+        ],
+        "answer": "Yes, we provide dedicated PostgreSQL developers and consulting services. Our team creates high-performance solutions tailored to your business needs using PostgreSQL."
+    },
+    {
+        "id": "faq_0045",
+        "question": "Do you work with MySQL?",
+        "variations": [
+            "Is MySQL part of your tech stack?",
+            "Can you build apps using MySQL?",
+            "Do you have experience with MySQL?",
+            "Are you experts in MySQL?"
+        ],
+        "answer": "Yes, MySQL is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using MySQL."
+    },
+    {
+        "id": "faq_0046",
+        "question": "Can I hire a MySQL developer?",
+        "variations": [
+            "Do you offer MySQL consulting?",
+            "I need a MySQL expert",
+            "Looking for MySQL development services"
+        ],
+        "answer": "Yes, we provide dedicated MySQL developers and consulting services. Our team creates high-performance solutions tailored to your business needs using MySQL."
+    },
+    {
+        "id": "faq_0047",
+        "question": "Do you work with Redis?",
+        "variations": [
+            "Is Redis part of your tech stack?",
+            "Can you build apps using Redis?",
+            "Do you have experience with Redis?",
+            "Are you experts in Redis?"
+        ],
+        "answer": "Yes, Redis is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using Redis."
+    },
+    {
+        "id": "faq_0048",
+        "question": "Can I hire a Redis developer?",
+        "variations": [
+            "Do you offer Redis consulting?",
+            "I need a Redis expert",
+            "Looking for Redis development services"
+        ],
+        "answer": "Yes, we provide dedicated Redis developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Redis."
+    },
+    {
+        "id": "faq_0049",
+        "question": "Do you work with Firebase?",
+        "variations": [
+            "Is Firebase part of your tech stack?",
+            "Can you build apps using Firebase?",
+            "Do you have experience with Firebase?",
+            "Are you experts in Firebase?"
+        ],
+        "answer": "Yes, Firebase is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using Firebase."
+    },
+    {
+        "id": "faq_0050",
+        "question": "Can I hire a Firebase developer?",
+        "variations": [
+            "Do you offer Firebase consulting?",
+            "I need a Firebase expert",
+            "Looking for Firebase development services"
+        ],
+        "answer": "Yes, we provide dedicated Firebase developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Firebase."
+    },
+    {
+        "id": "faq_0051",
+        "question": "Do you work with Supabase?",
+        "variations": [
+            "Is Supabase part of your tech stack?",
+            "Can you build apps using Supabase?",
+            "Do you have experience with Supabase?",
+            "Are you experts in Supabase?"
+        ],
+        "answer": "Yes, Supabase is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using Supabase."
+    },
+    {
+        "id": "faq_0052",
+        "question": "Can I hire a Supabase developer?",
+        "variations": [
+            "Do you offer Supabase consulting?",
+            "I need a Supabase expert",
+            "Looking for Supabase development services"
+        ],
+        "answer": "Yes, we provide dedicated Supabase developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Supabase."
+    },
+    {
+        "id": "faq_0053",
+        "question": "Do you work with DynamoDB?",
+        "variations": [
+            "Is DynamoDB part of your tech stack?",
+            "Can you build apps using DynamoDB?",
+            "Do you have experience with DynamoDB?",
+            "Are you experts in DynamoDB?"
+        ],
+        "answer": "Yes, DynamoDB is a core part of our Database technology stack. We have extensive experience building scalable and secure applications using DynamoDB."
+    },
+    {
+        "id": "faq_0054",
+        "question": "Can I hire a DynamoDB developer?",
+        "variations": [
+            "Do you offer DynamoDB consulting?",
+            "I need a DynamoDB expert",
+            "Looking for DynamoDB development services"
+        ],
+        "answer": "Yes, we provide dedicated DynamoDB developers and consulting services. Our team creates high-performance solutions tailored to your business needs using DynamoDB."
+    },
+    {
+        "id": "faq_0055",
+        "question": "Do you work with AWS?",
+        "variations": [
+            "Is AWS part of your tech stack?",
+            "Can you build apps using AWS?",
+            "Do you have experience with AWS?",
+            "Are you experts in AWS?"
+        ],
+        "answer": "Yes, AWS is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using AWS."
+    },
+    {
+        "id": "faq_0056",
+        "question": "Can I hire a AWS developer?",
+        "variations": [
+            "Do you offer AWS consulting?",
+            "I need a AWS expert",
+            "Looking for AWS development services"
+        ],
+        "answer": "Yes, we provide dedicated AWS developers and consulting services. Our team creates high-performance solutions tailored to your business needs using AWS."
+    },
+    {
+        "id": "faq_0057",
+        "question": "Do you work with Azure?",
+        "variations": [
+            "Is Azure part of your tech stack?",
+            "Can you build apps using Azure?",
+            "Do you have experience with Azure?",
+            "Are you experts in Azure?"
+        ],
+        "answer": "Yes, Azure is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Azure."
+    },
+    {
+        "id": "faq_0058",
+        "question": "Can I hire a Azure developer?",
+        "variations": [
+            "Do you offer Azure consulting?",
+            "I need a Azure expert",
+            "Looking for Azure development services"
+        ],
+        "answer": "Yes, we provide dedicated Azure developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Azure."
+    },
+    {
+        "id": "faq_0059",
+        "question": "Do you work with GCP?",
+        "variations": [
+            "Is GCP part of your tech stack?",
+            "Can you build apps using GCP?",
+            "Do you have experience with GCP?",
+            "Are you experts in GCP?"
+        ],
+        "answer": "Yes, GCP is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using GCP."
+    },
+    {
+        "id": "faq_0060",
+        "question": "Can I hire a GCP developer?",
+        "variations": [
+            "Do you offer GCP consulting?",
+            "I need a GCP expert",
+            "Looking for GCP development services"
+        ],
+        "answer": "Yes, we provide dedicated GCP developers and consulting services. Our team creates high-performance solutions tailored to your business needs using GCP."
+    },
+    {
+        "id": "faq_0061",
+        "question": "Do you work with Docker?",
+        "variations": [
+            "Is Docker part of your tech stack?",
+            "Can you build apps using Docker?",
+            "Do you have experience with Docker?",
+            "Are you experts in Docker?"
+        ],
+        "answer": "Yes, Docker is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Docker."
+    },
+    {
+        "id": "faq_0062",
+        "question": "Can I hire a Docker developer?",
+        "variations": [
+            "Do you offer Docker consulting?",
+            "I need a Docker expert",
+            "Looking for Docker development services"
+        ],
+        "answer": "Yes, we provide dedicated Docker developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Docker."
+    },
+    {
+        "id": "faq_0063",
+        "question": "Do you work with Kubernetes?",
+        "variations": [
+            "Is Kubernetes part of your tech stack?",
+            "Can you build apps using Kubernetes?",
+            "Do you have experience with Kubernetes?",
+            "Are you experts in Kubernetes?"
+        ],
+        "answer": "Yes, Kubernetes is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Kubernetes."
+    },
+    {
+        "id": "faq_0064",
+        "question": "Can I hire a Kubernetes developer?",
+        "variations": [
+            "Do you offer Kubernetes consulting?",
+            "I need a Kubernetes expert",
+            "Looking for Kubernetes development services"
+        ],
+        "answer": "Yes, we provide dedicated Kubernetes developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Kubernetes."
+    },
+    {
+        "id": "faq_0065",
+        "question": "Do you work with CI/CD?",
+        "variations": [
+            "Is CI/CD part of your tech stack?",
+            "Can you build apps using CI/CD?",
+            "Do you have experience with CI/CD?",
+            "Are you experts in CI/CD?"
+        ],
+        "answer": "Yes, CI/CD is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using CI/CD."
+    },
+    {
+        "id": "faq_0066",
+        "question": "Can I hire a CI/CD developer?",
+        "variations": [
+            "Do you offer CI/CD consulting?",
+            "I need a CI/CD expert",
+            "Looking for CI/CD development services"
+        ],
+        "answer": "Yes, we provide dedicated CI/CD developers and consulting services. Our team creates high-performance solutions tailored to your business needs using CI/CD."
+    },
+    {
+        "id": "faq_0067",
+        "question": "Do you work with Git?",
+        "variations": [
+            "Is Git part of your tech stack?",
+            "Can you build apps using Git?",
+            "Do you have experience with Git?",
+            "Are you experts in Git?"
+        ],
+        "answer": "Yes, Git is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Git."
+    },
+    {
+        "id": "faq_0068",
+        "question": "Can I hire a Git developer?",
+        "variations": [
+            "Do you offer Git consulting?",
+            "I need a Git expert",
+            "Looking for Git development services"
+        ],
+        "answer": "Yes, we provide dedicated Git developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Git."
+    },
+    {
+        "id": "faq_0069",
+        "question": "Do you work with GitHub?",
+        "variations": [
+            "Is GitHub part of your tech stack?",
+            "Can you build apps using GitHub?",
+            "Do you have experience with GitHub?",
+            "Are you experts in GitHub?"
+        ],
+        "answer": "Yes, GitHub is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using GitHub."
+    },
+    {
+        "id": "faq_0070",
+        "question": "Can I hire a GitHub developer?",
+        "variations": [
+            "Do you offer GitHub consulting?",
+            "I need a GitHub expert",
+            "Looking for GitHub development services"
+        ],
+        "answer": "Yes, we provide dedicated GitHub developers and consulting services. Our team creates high-performance solutions tailored to your business needs using GitHub."
+    },
+    {
+        "id": "faq_0071",
+        "question": "Do you work with GitLab?",
+        "variations": [
+            "Is GitLab part of your tech stack?",
+            "Can you build apps using GitLab?",
+            "Do you have experience with GitLab?",
+            "Are you experts in GitLab?"
+        ],
+        "answer": "Yes, GitLab is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using GitLab."
+    },
+    {
+        "id": "faq_0072",
+        "question": "Can I hire a GitLab developer?",
+        "variations": [
+            "Do you offer GitLab consulting?",
+            "I need a GitLab expert",
+            "Looking for GitLab development services"
+        ],
+        "answer": "Yes, we provide dedicated GitLab developers and consulting services. Our team creates high-performance solutions tailored to your business needs using GitLab."
+    },
+    {
+        "id": "faq_0073",
+        "question": "Do you work with Jenkins?",
+        "variations": [
+            "Is Jenkins part of your tech stack?",
+            "Can you build apps using Jenkins?",
+            "Do you have experience with Jenkins?",
+            "Are you experts in Jenkins?"
+        ],
+        "answer": "Yes, Jenkins is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Jenkins."
+    },
+    {
+        "id": "faq_0074",
+        "question": "Can I hire a Jenkins developer?",
+        "variations": [
+            "Do you offer Jenkins consulting?",
+            "I need a Jenkins expert",
+            "Looking for Jenkins development services"
+        ],
+        "answer": "Yes, we provide dedicated Jenkins developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Jenkins."
+    },
+    {
+        "id": "faq_0075",
+        "question": "Do you work with Terraform?",
+        "variations": [
+            "Is Terraform part of your tech stack?",
+            "Can you build apps using Terraform?",
+            "Do you have experience with Terraform?",
+            "Are you experts in Terraform?"
+        ],
+        "answer": "Yes, Terraform is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Terraform."
+    },
+    {
+        "id": "faq_0076",
+        "question": "Can I hire a Terraform developer?",
+        "variations": [
+            "Do you offer Terraform consulting?",
+            "I need a Terraform expert",
+            "Looking for Terraform development services"
+        ],
+        "answer": "Yes, we provide dedicated Terraform developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Terraform."
+    },
+    {
+        "id": "faq_0077",
+        "question": "Do you work with Nginx?",
+        "variations": [
+            "Is Nginx part of your tech stack?",
+            "Can you build apps using Nginx?",
+            "Do you have experience with Nginx?",
+            "Are you experts in Nginx?"
+        ],
+        "answer": "Yes, Nginx is a core part of our DevOps technology stack. We have extensive experience building scalable and secure applications using Nginx."
+    },
+    {
+        "id": "faq_0078",
+        "question": "Can I hire a Nginx developer?",
+        "variations": [
+            "Do you offer Nginx consulting?",
+            "I need a Nginx expert",
+            "Looking for Nginx development services"
+        ],
+        "answer": "Yes, we provide dedicated Nginx developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Nginx."
+    },
+    {
+        "id": "faq_0079",
+        "question": "Do you work with GenAI?",
+        "variations": [
+            "Is GenAI part of your tech stack?",
+            "Can you build apps using GenAI?",
+            "Do you have experience with GenAI?",
+            "Are you experts in GenAI?"
+        ],
+        "answer": "Yes, GenAI is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using GenAI."
+    },
+    {
+        "id": "faq_0080",
+        "question": "Can I hire a GenAI developer?",
+        "variations": [
+            "Do you offer GenAI consulting?",
+            "I need a GenAI expert",
+            "Looking for GenAI development services"
+        ],
+        "answer": "Yes, we provide dedicated GenAI developers and consulting services. Our team creates high-performance solutions tailored to your business needs using GenAI."
+    },
+    {
+        "id": "faq_0081",
+        "question": "Do you work with LLMs?",
+        "variations": [
+            "Is LLMs part of your tech stack?",
+            "Can you build apps using LLMs?",
+            "Do you have experience with LLMs?",
+            "Are you experts in LLMs?"
+        ],
+        "answer": "Yes, LLMs is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using LLMs."
+    },
+    {
+        "id": "faq_0082",
+        "question": "Can I hire a LLMs developer?",
+        "variations": [
+            "Do you offer LLMs consulting?",
+            "I need a LLMs expert",
+            "Looking for LLMs development services"
+        ],
+        "answer": "Yes, we provide dedicated LLMs developers and consulting services. Our team creates high-performance solutions tailored to your business needs using LLMs."
+    },
+    {
+        "id": "faq_0083",
+        "question": "Do you work with OpenAI API?",
+        "variations": [
+            "Is OpenAI API part of your tech stack?",
+            "Can you build apps using OpenAI API?",
+            "Do you have experience with OpenAI API?",
+            "Are you experts in OpenAI API?"
+        ],
+        "answer": "Yes, OpenAI API is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using OpenAI API."
+    },
+    {
+        "id": "faq_0084",
+        "question": "Can I hire a OpenAI API developer?",
+        "variations": [
+            "Do you offer OpenAI API consulting?",
+            "I need a OpenAI API expert",
+            "Looking for OpenAI API development services"
+        ],
+        "answer": "Yes, we provide dedicated OpenAI API developers and consulting services. Our team creates high-performance solutions tailored to your business needs using OpenAI API."
+    },
+    {
+        "id": "faq_0085",
+        "question": "Do you work with Hugging Face?",
+        "variations": [
+            "Is Hugging Face part of your tech stack?",
+            "Can you build apps using Hugging Face?",
+            "Do you have experience with Hugging Face?",
+            "Are you experts in Hugging Face?"
+        ],
+        "answer": "Yes, Hugging Face is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using Hugging Face."
+    },
+    {
+        "id": "faq_0086",
+        "question": "Can I hire a Hugging Face developer?",
+        "variations": [
+            "Do you offer Hugging Face consulting?",
+            "I need a Hugging Face expert",
+            "Looking for Hugging Face development services"
+        ],
+        "answer": "Yes, we provide dedicated Hugging Face developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Hugging Face."
+    },
+    {
+        "id": "faq_0087",
+        "question": "Do you work with LangChain?",
+        "variations": [
+            "Is LangChain part of your tech stack?",
+            "Can you build apps using LangChain?",
+            "Do you have experience with LangChain?",
+            "Are you experts in LangChain?"
+        ],
+        "answer": "Yes, LangChain is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using LangChain."
+    },
+    {
+        "id": "faq_0088",
+        "question": "Can I hire a LangChain developer?",
+        "variations": [
+            "Do you offer LangChain consulting?",
+            "I need a LangChain expert",
+            "Looking for LangChain development services"
+        ],
+        "answer": "Yes, we provide dedicated LangChain developers and consulting services. Our team creates high-performance solutions tailored to your business needs using LangChain."
+    },
+    {
+        "id": "faq_0089",
+        "question": "Do you work with RAG?",
+        "variations": [
+            "Is RAG part of your tech stack?",
+            "Can you build apps using RAG?",
+            "Do you have experience with RAG?",
+            "Are you experts in RAG?"
+        ],
+        "answer": "Yes, RAG is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using RAG."
+    },
+    {
+        "id": "faq_0090",
+        "question": "Can I hire a RAG developer?",
+        "variations": [
+            "Do you offer RAG consulting?",
+            "I need a RAG expert",
+            "Looking for RAG development services"
+        ],
+        "answer": "Yes, we provide dedicated RAG developers and consulting services. Our team creates high-performance solutions tailored to your business needs using RAG."
+    },
+    {
+        "id": "faq_0091",
+        "question": "Do you work with Vector Databases?",
+        "variations": [
+            "Is Vector Databases part of your tech stack?",
+            "Can you build apps using Vector Databases?",
+            "Do you have experience with Vector Databases?",
+            "Are you experts in Vector Databases?"
+        ],
+        "answer": "Yes, Vector Databases is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using Vector Databases."
+    },
+    {
+        "id": "faq_0092",
+        "question": "Can I hire a Vector Databases developer?",
+        "variations": [
+            "Do you offer Vector Databases consulting?",
+            "I need a Vector Databases expert",
+            "Looking for Vector Databases development services"
+        ],
+        "answer": "Yes, we provide dedicated Vector Databases developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Vector Databases."
+    },
+    {
+        "id": "faq_0093",
+        "question": "Do you work with Pinecone?",
+        "variations": [
+            "Is Pinecone part of your tech stack?",
+            "Can you build apps using Pinecone?",
+            "Do you have experience with Pinecone?",
+            "Are you experts in Pinecone?"
+        ],
+        "answer": "Yes, Pinecone is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using Pinecone."
+    },
+    {
+        "id": "faq_0094",
+        "question": "Can I hire a Pinecone developer?",
+        "variations": [
+            "Do you offer Pinecone consulting?",
+            "I need a Pinecone expert",
+            "Looking for Pinecone development services"
+        ],
+        "answer": "Yes, we provide dedicated Pinecone developers and consulting services. Our team creates high-performance solutions tailored to your business needs using Pinecone."
+    },
+    {
+        "id": "faq_0095",
+        "question": "Do you work with TensorFlow?",
+        "variations": [
+            "Is TensorFlow part of your tech stack?",
+            "Can you build apps using TensorFlow?",
+            "Do you have experience with TensorFlow?",
+            "Are you experts in TensorFlow?"
+        ],
+        "answer": "Yes, TensorFlow is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using TensorFlow."
+    },
+    {
+        "id": "faq_0096",
+        "question": "Can I hire a TensorFlow developer?",
+        "variations": [
+            "Do you offer TensorFlow consulting?",
+            "I need a TensorFlow expert",
+            "Looking for TensorFlow development services"
+        ],
+        "answer": "Yes, we provide dedicated TensorFlow developers and consulting services. Our team creates high-performance solutions tailored to your business needs using TensorFlow."
+    },
+    {
+        "id": "faq_0097",
+        "question": "Do you work with PyTorch?",
+        "variations": [
+            "Is PyTorch part of your tech stack?",
+            "Can you build apps using PyTorch?",
+            "Do you have experience with PyTorch?",
+            "Are you experts in PyTorch?"
+        ],
+        "answer": "Yes, PyTorch is a core part of our AI/ML technology stack. We have extensive experience building scalable and secure applications using PyTorch."
+    },
+    {
+        "id": "faq_0098",
+        "question": "Can I hire a PyTorch developer?",
+        "variations": [
+            "Do you offer PyTorch consulting?",
+            "I need a PyTorch expert",
+            "Looking for PyTorch development services"
+        ],
+        "answer": "Yes, we provide dedicated PyTorch developers and consulting services. Our team creates high-performance solutions tailored to your business needs using PyTorch."
+    },
+    {
+        "id": "faq_0099",
+        "question": "Tell me about the Lands and Homes project.",
+        "variations": [
+            "What is Lands and Homes?",
+            "Describe the Lands and Homes case study",
+            "Have you built something like Lands and Homes?"
+        ],
+        "answer": "Lands and Homes is A comprehensive property and user management platform. It was built using GoLang, PostgreSQL, GraphQL, Next.js, focusing on Full Stack Development & Architecture."
+    },
+    {
+        "id": "faq_0100",
+        "question": "What technology was used in Lands and Homes?",
+        "variations": [
+            "Tech stack for Lands and Homes",
+            "How was Lands and Homes built?",
+            "Coding language of Lands and Homes"
+        ],
+        "answer": "The Lands and Homes project was engineered using GoLang, PostgreSQL, GraphQL, Next.js."
+    },
+    {
+        "id": "faq_0101",
+        "question": "Tell me about the E-commerce Platform project.",
+        "variations": [
+            "What is E-commerce Platform?",
+            "Describe the E-commerce Platform case study",
+            "Have you built something like E-commerce Platform?"
+        ],
+        "answer": "E-commerce Platform is A scalable online shopping solution with admin panels and secure payments. It was built using MERN Stack (MongoDB, Express, React, Node), focusing on End-to-end development."
+    },
+    {
+        "id": "faq_0102",
+        "question": "What technology was used in E-commerce Platform?",
+        "variations": [
+            "Tech stack for E-commerce Platform",
+            "How was E-commerce Platform built?",
+            "Coding language of E-commerce Platform"
+        ],
+        "answer": "The E-commerce Platform project was engineered using MERN Stack (MongoDB, Express, React, Node)."
+    },
+    {
+        "id": "faq_0103",
+        "question": "Tell me about the Real-time Chat Application project.",
+        "variations": [
+            "What is Real-time Chat Application?",
+            "Describe the Real-time Chat Application case study",
+            "Have you built something like Real-time Chat Application?"
+        ],
+        "answer": "Real-time Chat Application is High-performance chat system supporting thousands of concurrent users. It was built using MEAN Stack (MongoDB, Express, Angular, Node) with Socket.IO, focusing on Backend optimization and WebSocket implementation."
+    },
+    {
+        "id": "faq_0104",
+        "question": "What technology was used in Real-time Chat Application?",
+        "variations": [
+            "Tech stack for Real-time Chat Application",
+            "How was Real-time Chat Application built?",
+            "Coding language of Real-time Chat Application"
+        ],
+        "answer": "The Real-time Chat Application project was engineered using MEAN Stack (MongoDB, Express, Angular, Node) with Socket.IO."
+    },
+    {
+        "id": "faq_0105",
+        "question": "Tell me about the Dating App project.",
+        "variations": [
+            "What is Dating App?",
+            "Describe the Dating App case study",
+            "Have you built something like Dating App?"
+        ],
+        "answer": "Dating App is Mobile-first dating platform with matchmaking algorithms. It was built using MERN Stack + Flutter for mobile, focusing on API design and Auth implementation."
+    },
+    {
+        "id": "faq_0106",
+        "question": "What technology was used in Dating App?",
+        "variations": [
+            "Tech stack for Dating App",
+            "How was Dating App built?",
+            "Coding language of Dating App"
+        ],
+        "answer": "The Dating App project was engineered using MERN Stack + Flutter for mobile."
+    },
+    {
+        "id": "faq_0107",
+        "question": "Do you offer Custom AI Solutions?",
+        "variations": [
+            "Can you help with Custom AI Solution?",
+            "I need Custom AI Solution",
+            "Services for Custom AI Solution"
+        ],
+        "answer": "Yes, Custom AI Solution is one of our key offerings. We help businesses innovate and scale by providing expert Custom AI Solutions tailored to their requirements."
+    },
+    {
+        "id": "faq_0108",
+        "question": "Do you offer Cloud Migrations?",
+        "variations": [
+            "Can you help with Cloud Migration?",
+            "I need Cloud Migration",
+            "Services for Cloud Migration"
+        ],
+        "answer": "Yes, Cloud Migration is one of our key offerings. We help businesses innovate and scale by providing expert Cloud Migrations tailored to their requirements."
+    },
+    {
+        "id": "faq_0109",
+        "question": "Do you offer Legacy Code Refactorings?",
+        "variations": [
+            "Can you help with Legacy Code Refactoring?",
+            "I need Legacy Code Refactoring",
+            "Services for Legacy Code Refactoring"
+        ],
+        "answer": "Yes, Legacy Code Refactoring is one of our key offerings. We help businesses innovate and scale by providing expert Legacy Code Refactorings tailored to their requirements."
+    },
+    {
+        "id": "faq_0110",
+        "question": "Do you offer API Developments?",
+        "variations": [
+            "Can you help with API Development?",
+            "I need API Development",
+            "Services for API Development"
+        ],
+        "answer": "Yes, API Development is one of our key offerings. We help businesses innovate and scale by providing expert API Developments tailored to their requirements."
+    },
+    {
+        "id": "faq_0111",
+        "question": "Do you offer MVP Developments?",
+        "variations": [
+            "Can you help with MVP Development?",
+            "I need MVP Development",
+            "Services for MVP Development"
+        ],
+        "answer": "Yes, MVP Development is one of our key offerings. We help businesses innovate and scale by providing expert MVP Developments tailored to their requirements."
+    },
+    {
+        "id": "faq_0112",
+        "question": "Do you offer SaaS Product Designs?",
+        "variations": [
+            "Can you help with SaaS Product Design?",
+            "I need SaaS Product Design",
+            "Services for SaaS Product Design"
+        ],
+        "answer": "Yes, SaaS Product Design is one of our key offerings. We help businesses innovate and scale by providing expert SaaS Product Designs tailored to their requirements."
+    },
+    {
+        "id": "faq_0113",
+        "question": "Do you offer Enterprise Softwares?",
+        "variations": [
+            "Can you help with Enterprise Software?",
+            "I need Enterprise Software",
+            "Services for Enterprise Software"
+        ],
+        "answer": "Yes, Enterprise Software is one of our key offerings. We help businesses innovate and scale by providing expert Enterprise Softwares tailored to their requirements."
+    },
+    {
+        "id": "faq_0114",
+        "question": "Do you offer Mobile App Backends?",
+        "variations": [
+            "Can you help with Mobile App Backend?",
+            "I need Mobile App Backend",
+            "Services for Mobile App Backend"
+        ],
+        "answer": "Yes, Mobile App Backend is one of our key offerings. We help businesses innovate and scale by providing expert Mobile App Backends tailored to their requirements."
+    },
+    {
+        "id": "faq_0115",
+        "question": "Do you offer Real-time Systems?",
+        "variations": [
+            "Can you help with Real-time System?",
+            "I need Real-time System",
+            "Services for Real-time System"
+        ],
+        "answer": "Yes, Real-time System is one of our key offerings. We help businesses innovate and scale by providing expert Real-time Systems tailored to their requirements."
+    },
+    {
+        "id": "faq_0116",
+        "question": "Do you offer Performance Optimizations?",
+        "variations": [
+            "Can you help with Performance Optimization?",
+            "I need Performance Optimization",
+            "Services for Performance Optimization"
+        ],
+        "answer": "Yes, Performance Optimization is one of our key offerings. We help businesses innovate and scale by providing expert Performance Optimizations tailored to their requirements."
+    },
+    {
+        "id": "faq_0117",
+        "question": "Do you offer Security Audits?",
+        "variations": [
+            "Can you help with Security Audit?",
+            "I need Security Audit",
+            "Services for Security Audit"
+        ],
+        "answer": "Yes, Security Audit is one of our key offerings. We help businesses innovate and scale by providing expert Security Audits tailored to their requirements."
+    },
+    {
+        "id": "faq_0118",
+        "question": "Do you offer Database Designs?",
+        "variations": [
+            "Can you help with Database Design?",
+            "I need Database Design",
+            "Services for Database Design"
+        ],
+        "answer": "Yes, Database Design is one of our key offerings. We help businesses innovate and scale by providing expert Database Designs tailored to their requirements."
+    },
+    {
+        "id": "faq_0119",
+        "question": "Who is the founder?",
+        "variations": [
+            "Tell me about founder",
+            "Question about founder"
+        ],
+        "answer": "The company was co-founded by Varun Pratap Singh, a Full Stack Developer wite expertise in MERN and MEAN stacks."
+    },
+    {
+        "id": "faq_0120",
+        "question": "What represents your company culture?",
+        "variations": [
+            "Tell me about culture",
+            "Question about culture"
+        ],
+        "answer": "Our culture is built on innovation, transparency, and continuous learning. We prioritize code quality and long-term client success."
+    },
+    {
+        "id": "faq_0121",
+        "question": "Do you utilize AI internally?",
+        "variations": [
+            "Tell me about internally",
+            "Question about internally"
+        ],
+        "answer": "Yes, we integrate AI into our internal workflows for coding optimization, testing, and automated deployment."
+    },
+    {
+        "id": "faq_0122",
+        "question": "Why choose Predusk Technology?",
+        "variations": [
+            "Tell me about Technology",
+            "Question about Technology"
+        ],
+        "answer": "We offer a unique blend of technical expertise (AI, Cloud, Full Stack) and business acumen, ensuring your product is built for growth, not just launch."
+    },
+    {
+        "id": "faq_0123",
+        "question": "Are you a remote company?",
+        "variations": [
+            "Tell me about company",
+            "Question about company"
+        ],
+        "answer": "Yes, we are a remote-first organization with a distributed team of experts across multiple time zones."
+    },
+    {
+        "id": "faq_0124",
+        "question": "Are you hiring Frontend Developers?",
+        "variations": [
+            "Job opening for Frontend Developer",
+            "Careers: Frontend Developer",
+            "Do you have a vacancy for Frontend Developer?"
+        ],
+        "answer": "We are frequently looking for talented Frontend Developers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0125",
+        "question": "Are you hiring Backend Engineers?",
+        "variations": [
+            "Job opening for Backend Engineer",
+            "Careers: Backend Engineer",
+            "Do you have a vacancy for Backend Engineer?"
+        ],
+        "answer": "We are frequently looking for talented Backend Engineers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0126",
+        "question": "Are you hiring Full Stack Developers?",
+        "variations": [
+            "Job opening for Full Stack Developer",
+            "Careers: Full Stack Developer",
+            "Do you have a vacancy for Full Stack Developer?"
+        ],
+        "answer": "We are frequently looking for talented Full Stack Developers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0127",
+        "question": "Are you hiring DevOps Engineers?",
+        "variations": [
+            "Job opening for DevOps Engineer",
+            "Careers: DevOps Engineer",
+            "Do you have a vacancy for DevOps Engineer?"
+        ],
+        "answer": "We are frequently looking for talented DevOps Engineers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0128",
+        "question": "Are you hiring AI Researchers?",
+        "variations": [
+            "Job opening for AI Researcher",
+            "Careers: AI Researcher",
+            "Do you have a vacancy for AI Researcher?"
+        ],
+        "answer": "We are frequently looking for talented AI Researchers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0129",
+        "question": "Are you hiring Data Scientists?",
+        "variations": [
+            "Job opening for Data Scientist",
+            "Careers: Data Scientist",
+            "Do you have a vacancy for Data Scientist?"
+        ],
+        "answer": "We are frequently looking for talented Data Scientists. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0130",
+        "question": "Are you hiring UI/UX Designers?",
+        "variations": [
+            "Job opening for UI/UX Designer",
+            "Careers: UI/UX Designer",
+            "Do you have a vacancy for UI/UX Designer?"
+        ],
+        "answer": "We are frequently looking for talented UI/UX Designers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0131",
+        "question": "Are you hiring Product Managers?",
+        "variations": [
+            "Job opening for Product Manager",
+            "Careers: Product Manager",
+            "Do you have a vacancy for Product Manager?"
+        ],
+        "answer": "We are frequently looking for talented Product Managers. Please check our careers page or send your resume to careers@predusk.com."
+    },
+    {
+        "id": "faq_0132",
+        "question": "Do you provide Consulting for React.js?",
+        "variations": [
+            "React.js Consulting services",
+            "Help with React.js Consulting",
+            "Can you consulting my React.js app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for React.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0133",
+        "question": "Do you provide Migration for React.js?",
+        "variations": [
+            "React.js Migration services",
+            "Help with React.js Migration",
+            "Can you migration my React.js app?"
+        ],
+        "answer": "Yes, we specialize in Migration for React.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0134",
+        "question": "Do you provide Audit for React.js?",
+        "variations": [
+            "React.js Audit services",
+            "Help with React.js Audit",
+            "Can you audit my React.js app?"
+        ],
+        "answer": "Yes, we specialize in Audit for React.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0135",
+        "question": "Do you provide Performance Tuning for React.js?",
+        "variations": [
+            "React.js Performance Tuning services",
+            "Help with React.js Performance Tuning",
+            "Can you performance tuning my React.js app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for React.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0136",
+        "question": "Do you provide Consulting for Next.js?",
+        "variations": [
+            "Next.js Consulting services",
+            "Help with Next.js Consulting",
+            "Can you consulting my Next.js app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Next.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0137",
+        "question": "Do you provide Migration for Next.js?",
+        "variations": [
+            "Next.js Migration services",
+            "Help with Next.js Migration",
+            "Can you migration my Next.js app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Next.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0138",
+        "question": "Do you provide Audit for Next.js?",
+        "variations": [
+            "Next.js Audit services",
+            "Help with Next.js Audit",
+            "Can you audit my Next.js app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Next.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0139",
+        "question": "Do you provide Performance Tuning for Next.js?",
+        "variations": [
+            "Next.js Performance Tuning services",
+            "Help with Next.js Performance Tuning",
+            "Can you performance tuning my Next.js app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Next.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0140",
+        "question": "Do you provide Consulting for Angular?",
+        "variations": [
+            "Angular Consulting services",
+            "Help with Angular Consulting",
+            "Can you consulting my Angular app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Angular applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0141",
+        "question": "Do you provide Migration for Angular?",
+        "variations": [
+            "Angular Migration services",
+            "Help with Angular Migration",
+            "Can you migration my Angular app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Angular applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0142",
+        "question": "Do you provide Audit for Angular?",
+        "variations": [
+            "Angular Audit services",
+            "Help with Angular Audit",
+            "Can you audit my Angular app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Angular applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0143",
+        "question": "Do you provide Performance Tuning for Angular?",
+        "variations": [
+            "Angular Performance Tuning services",
+            "Help with Angular Performance Tuning",
+            "Can you performance tuning my Angular app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Angular applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0144",
+        "question": "Do you provide Consulting for Tailwind CSS?",
+        "variations": [
+            "Tailwind CSS Consulting services",
+            "Help with Tailwind CSS Consulting",
+            "Can you consulting my Tailwind CSS app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Tailwind CSS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0145",
+        "question": "Do you provide Migration for Tailwind CSS?",
+        "variations": [
+            "Tailwind CSS Migration services",
+            "Help with Tailwind CSS Migration",
+            "Can you migration my Tailwind CSS app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Tailwind CSS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0146",
+        "question": "Do you provide Audit for Tailwind CSS?",
+        "variations": [
+            "Tailwind CSS Audit services",
+            "Help with Tailwind CSS Audit",
+            "Can you audit my Tailwind CSS app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Tailwind CSS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0147",
+        "question": "Do you provide Performance Tuning for Tailwind CSS?",
+        "variations": [
+            "Tailwind CSS Performance Tuning services",
+            "Help with Tailwind CSS Performance Tuning",
+            "Can you performance tuning my Tailwind CSS app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Tailwind CSS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0148",
+        "question": "Do you provide Consulting for HTML5?",
+        "variations": [
+            "HTML5 Consulting services",
+            "Help with HTML5 Consulting",
+            "Can you consulting my HTML5 app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for HTML5 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0149",
+        "question": "Do you provide Migration for HTML5?",
+        "variations": [
+            "HTML5 Migration services",
+            "Help with HTML5 Migration",
+            "Can you migration my HTML5 app?"
+        ],
+        "answer": "Yes, we specialize in Migration for HTML5 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0150",
+        "question": "Do you provide Audit for HTML5?",
+        "variations": [
+            "HTML5 Audit services",
+            "Help with HTML5 Audit",
+            "Can you audit my HTML5 app?"
+        ],
+        "answer": "Yes, we specialize in Audit for HTML5 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0151",
+        "question": "Do you provide Performance Tuning for HTML5?",
+        "variations": [
+            "HTML5 Performance Tuning services",
+            "Help with HTML5 Performance Tuning",
+            "Can you performance tuning my HTML5 app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for HTML5 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0152",
+        "question": "Do you provide Consulting for CSS3?",
+        "variations": [
+            "CSS3 Consulting services",
+            "Help with CSS3 Consulting",
+            "Can you consulting my CSS3 app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for CSS3 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0153",
+        "question": "Do you provide Migration for CSS3?",
+        "variations": [
+            "CSS3 Migration services",
+            "Help with CSS3 Migration",
+            "Can you migration my CSS3 app?"
+        ],
+        "answer": "Yes, we specialize in Migration for CSS3 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0154",
+        "question": "Do you provide Audit for CSS3?",
+        "variations": [
+            "CSS3 Audit services",
+            "Help with CSS3 Audit",
+            "Can you audit my CSS3 app?"
+        ],
+        "answer": "Yes, we specialize in Audit for CSS3 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0155",
+        "question": "Do you provide Performance Tuning for CSS3?",
+        "variations": [
+            "CSS3 Performance Tuning services",
+            "Help with CSS3 Performance Tuning",
+            "Can you performance tuning my CSS3 app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for CSS3 applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0156",
+        "question": "Do you provide Consulting for JavaScript?",
+        "variations": [
+            "JavaScript Consulting services",
+            "Help with JavaScript Consulting",
+            "Can you consulting my JavaScript app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for JavaScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0157",
+        "question": "Do you provide Migration for JavaScript?",
+        "variations": [
+            "JavaScript Migration services",
+            "Help with JavaScript Migration",
+            "Can you migration my JavaScript app?"
+        ],
+        "answer": "Yes, we specialize in Migration for JavaScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0158",
+        "question": "Do you provide Audit for JavaScript?",
+        "variations": [
+            "JavaScript Audit services",
+            "Help with JavaScript Audit",
+            "Can you audit my JavaScript app?"
+        ],
+        "answer": "Yes, we specialize in Audit for JavaScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0159",
+        "question": "Do you provide Performance Tuning for JavaScript?",
+        "variations": [
+            "JavaScript Performance Tuning services",
+            "Help with JavaScript Performance Tuning",
+            "Can you performance tuning my JavaScript app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for JavaScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0160",
+        "question": "Do you provide Consulting for TypeScript?",
+        "variations": [
+            "TypeScript Consulting services",
+            "Help with TypeScript Consulting",
+            "Can you consulting my TypeScript app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for TypeScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0161",
+        "question": "Do you provide Migration for TypeScript?",
+        "variations": [
+            "TypeScript Migration services",
+            "Help with TypeScript Migration",
+            "Can you migration my TypeScript app?"
+        ],
+        "answer": "Yes, we specialize in Migration for TypeScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0162",
+        "question": "Do you provide Audit for TypeScript?",
+        "variations": [
+            "TypeScript Audit services",
+            "Help with TypeScript Audit",
+            "Can you audit my TypeScript app?"
+        ],
+        "answer": "Yes, we specialize in Audit for TypeScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0163",
+        "question": "Do you provide Performance Tuning for TypeScript?",
+        "variations": [
+            "TypeScript Performance Tuning services",
+            "Help with TypeScript Performance Tuning",
+            "Can you performance tuning my TypeScript app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for TypeScript applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0164",
+        "question": "Do you provide Consulting for Redux?",
+        "variations": [
+            "Redux Consulting services",
+            "Help with Redux Consulting",
+            "Can you consulting my Redux app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Redux applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0165",
+        "question": "Do you provide Migration for Redux?",
+        "variations": [
+            "Redux Migration services",
+            "Help with Redux Migration",
+            "Can you migration my Redux app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Redux applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0166",
+        "question": "Do you provide Audit for Redux?",
+        "variations": [
+            "Redux Audit services",
+            "Help with Redux Audit",
+            "Can you audit my Redux app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Redux applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0167",
+        "question": "Do you provide Performance Tuning for Redux?",
+        "variations": [
+            "Redux Performance Tuning services",
+            "Help with Redux Performance Tuning",
+            "Can you performance tuning my Redux app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Redux applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0168",
+        "question": "Do you provide Consulting for Material UI?",
+        "variations": [
+            "Material UI Consulting services",
+            "Help with Material UI Consulting",
+            "Can you consulting my Material UI app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Material UI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0169",
+        "question": "Do you provide Migration for Material UI?",
+        "variations": [
+            "Material UI Migration services",
+            "Help with Material UI Migration",
+            "Can you migration my Material UI app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Material UI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0170",
+        "question": "Do you provide Audit for Material UI?",
+        "variations": [
+            "Material UI Audit services",
+            "Help with Material UI Audit",
+            "Can you audit my Material UI app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Material UI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0171",
+        "question": "Do you provide Performance Tuning for Material UI?",
+        "variations": [
+            "Material UI Performance Tuning services",
+            "Help with Material UI Performance Tuning",
+            "Can you performance tuning my Material UI app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Material UI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0172",
+        "question": "Do you provide Consulting for Node.js?",
+        "variations": [
+            "Node.js Consulting services",
+            "Help with Node.js Consulting",
+            "Can you consulting my Node.js app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Node.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0173",
+        "question": "Do you provide Migration for Node.js?",
+        "variations": [
+            "Node.js Migration services",
+            "Help with Node.js Migration",
+            "Can you migration my Node.js app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Node.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0174",
+        "question": "Do you provide Audit for Node.js?",
+        "variations": [
+            "Node.js Audit services",
+            "Help with Node.js Audit",
+            "Can you audit my Node.js app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Node.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0175",
+        "question": "Do you provide Performance Tuning for Node.js?",
+        "variations": [
+            "Node.js Performance Tuning services",
+            "Help with Node.js Performance Tuning",
+            "Can you performance tuning my Node.js app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Node.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0176",
+        "question": "Do you provide Consulting for Express.js?",
+        "variations": [
+            "Express.js Consulting services",
+            "Help with Express.js Consulting",
+            "Can you consulting my Express.js app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Express.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0177",
+        "question": "Do you provide Migration for Express.js?",
+        "variations": [
+            "Express.js Migration services",
+            "Help with Express.js Migration",
+            "Can you migration my Express.js app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Express.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0178",
+        "question": "Do you provide Audit for Express.js?",
+        "variations": [
+            "Express.js Audit services",
+            "Help with Express.js Audit",
+            "Can you audit my Express.js app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Express.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0179",
+        "question": "Do you provide Performance Tuning for Express.js?",
+        "variations": [
+            "Express.js Performance Tuning services",
+            "Help with Express.js Performance Tuning",
+            "Can you performance tuning my Express.js app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Express.js applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0180",
+        "question": "Do you provide Consulting for NestJS?",
+        "variations": [
+            "NestJS Consulting services",
+            "Help with NestJS Consulting",
+            "Can you consulting my NestJS app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for NestJS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0181",
+        "question": "Do you provide Migration for NestJS?",
+        "variations": [
+            "NestJS Migration services",
+            "Help with NestJS Migration",
+            "Can you migration my NestJS app?"
+        ],
+        "answer": "Yes, we specialize in Migration for NestJS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0182",
+        "question": "Do you provide Audit for NestJS?",
+        "variations": [
+            "NestJS Audit services",
+            "Help with NestJS Audit",
+            "Can you audit my NestJS app?"
+        ],
+        "answer": "Yes, we specialize in Audit for NestJS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0183",
+        "question": "Do you provide Performance Tuning for NestJS?",
+        "variations": [
+            "NestJS Performance Tuning services",
+            "Help with NestJS Performance Tuning",
+            "Can you performance tuning my NestJS app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for NestJS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0184",
+        "question": "Do you provide Consulting for GoLang?",
+        "variations": [
+            "GoLang Consulting services",
+            "Help with GoLang Consulting",
+            "Can you consulting my GoLang app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for GoLang applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0185",
+        "question": "Do you provide Migration for GoLang?",
+        "variations": [
+            "GoLang Migration services",
+            "Help with GoLang Migration",
+            "Can you migration my GoLang app?"
+        ],
+        "answer": "Yes, we specialize in Migration for GoLang applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0186",
+        "question": "Do you provide Audit for GoLang?",
+        "variations": [
+            "GoLang Audit services",
+            "Help with GoLang Audit",
+            "Can you audit my GoLang app?"
+        ],
+        "answer": "Yes, we specialize in Audit for GoLang applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0187",
+        "question": "Do you provide Performance Tuning for GoLang?",
+        "variations": [
+            "GoLang Performance Tuning services",
+            "Help with GoLang Performance Tuning",
+            "Can you performance tuning my GoLang app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for GoLang applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0188",
+        "question": "Do you provide Consulting for Python?",
+        "variations": [
+            "Python Consulting services",
+            "Help with Python Consulting",
+            "Can you consulting my Python app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Python applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0189",
+        "question": "Do you provide Migration for Python?",
+        "variations": [
+            "Python Migration services",
+            "Help with Python Migration",
+            "Can you migration my Python app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Python applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0190",
+        "question": "Do you provide Audit for Python?",
+        "variations": [
+            "Python Audit services",
+            "Help with Python Audit",
+            "Can you audit my Python app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Python applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0191",
+        "question": "Do you provide Performance Tuning for Python?",
+        "variations": [
+            "Python Performance Tuning services",
+            "Help with Python Performance Tuning",
+            "Can you performance tuning my Python app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Python applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0192",
+        "question": "Do you provide Consulting for FastAPI?",
+        "variations": [
+            "FastAPI Consulting services",
+            "Help with FastAPI Consulting",
+            "Can you consulting my FastAPI app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for FastAPI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0193",
+        "question": "Do you provide Migration for FastAPI?",
+        "variations": [
+            "FastAPI Migration services",
+            "Help with FastAPI Migration",
+            "Can you migration my FastAPI app?"
+        ],
+        "answer": "Yes, we specialize in Migration for FastAPI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0194",
+        "question": "Do you provide Audit for FastAPI?",
+        "variations": [
+            "FastAPI Audit services",
+            "Help with FastAPI Audit",
+            "Can you audit my FastAPI app?"
+        ],
+        "answer": "Yes, we specialize in Audit for FastAPI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0195",
+        "question": "Do you provide Performance Tuning for FastAPI?",
+        "variations": [
+            "FastAPI Performance Tuning services",
+            "Help with FastAPI Performance Tuning",
+            "Can you performance tuning my FastAPI app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for FastAPI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0196",
+        "question": "Do you provide Consulting for Django?",
+        "variations": [
+            "Django Consulting services",
+            "Help with Django Consulting",
+            "Can you consulting my Django app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Django applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0197",
+        "question": "Do you provide Migration for Django?",
+        "variations": [
+            "Django Migration services",
+            "Help with Django Migration",
+            "Can you migration my Django app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Django applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0198",
+        "question": "Do you provide Audit for Django?",
+        "variations": [
+            "Django Audit services",
+            "Help with Django Audit",
+            "Can you audit my Django app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Django applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0199",
+        "question": "Do you provide Performance Tuning for Django?",
+        "variations": [
+            "Django Performance Tuning services",
+            "Help with Django Performance Tuning",
+            "Can you performance tuning my Django app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Django applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0200",
+        "question": "Do you provide Consulting for GraphQL?",
+        "variations": [
+            "GraphQL Consulting services",
+            "Help with GraphQL Consulting",
+            "Can you consulting my GraphQL app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for GraphQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0201",
+        "question": "Do you provide Migration for GraphQL?",
+        "variations": [
+            "GraphQL Migration services",
+            "Help with GraphQL Migration",
+            "Can you migration my GraphQL app?"
+        ],
+        "answer": "Yes, we specialize in Migration for GraphQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0202",
+        "question": "Do you provide Audit for GraphQL?",
+        "variations": [
+            "GraphQL Audit services",
+            "Help with GraphQL Audit",
+            "Can you audit my GraphQL app?"
+        ],
+        "answer": "Yes, we specialize in Audit for GraphQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0203",
+        "question": "Do you provide Performance Tuning for GraphQL?",
+        "variations": [
+            "GraphQL Performance Tuning services",
+            "Help with GraphQL Performance Tuning",
+            "Can you performance tuning my GraphQL app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for GraphQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0204",
+        "question": "Do you provide Consulting for REST API?",
+        "variations": [
+            "REST API Consulting services",
+            "Help with REST API Consulting",
+            "Can you consulting my REST API app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for REST API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0205",
+        "question": "Do you provide Migration for REST API?",
+        "variations": [
+            "REST API Migration services",
+            "Help with REST API Migration",
+            "Can you migration my REST API app?"
+        ],
+        "answer": "Yes, we specialize in Migration for REST API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0206",
+        "question": "Do you provide Audit for REST API?",
+        "variations": [
+            "REST API Audit services",
+            "Help with REST API Audit",
+            "Can you audit my REST API app?"
+        ],
+        "answer": "Yes, we specialize in Audit for REST API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0207",
+        "question": "Do you provide Performance Tuning for REST API?",
+        "variations": [
+            "REST API Performance Tuning services",
+            "Help with REST API Performance Tuning",
+            "Can you performance tuning my REST API app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for REST API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0208",
+        "question": "Do you provide Consulting for Socket.IO?",
+        "variations": [
+            "Socket.IO Consulting services",
+            "Help with Socket.IO Consulting",
+            "Can you consulting my Socket.IO app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Socket.IO applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0209",
+        "question": "Do you provide Migration for Socket.IO?",
+        "variations": [
+            "Socket.IO Migration services",
+            "Help with Socket.IO Migration",
+            "Can you migration my Socket.IO app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Socket.IO applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0210",
+        "question": "Do you provide Audit for Socket.IO?",
+        "variations": [
+            "Socket.IO Audit services",
+            "Help with Socket.IO Audit",
+            "Can you audit my Socket.IO app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Socket.IO applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0211",
+        "question": "Do you provide Performance Tuning for Socket.IO?",
+        "variations": [
+            "Socket.IO Performance Tuning services",
+            "Help with Socket.IO Performance Tuning",
+            "Can you performance tuning my Socket.IO app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Socket.IO applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0212",
+        "question": "Do you provide Consulting for MongoDB?",
+        "variations": [
+            "MongoDB Consulting services",
+            "Help with MongoDB Consulting",
+            "Can you consulting my MongoDB app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for MongoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0213",
+        "question": "Do you provide Migration for MongoDB?",
+        "variations": [
+            "MongoDB Migration services",
+            "Help with MongoDB Migration",
+            "Can you migration my MongoDB app?"
+        ],
+        "answer": "Yes, we specialize in Migration for MongoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0214",
+        "question": "Do you provide Audit for MongoDB?",
+        "variations": [
+            "MongoDB Audit services",
+            "Help with MongoDB Audit",
+            "Can you audit my MongoDB app?"
+        ],
+        "answer": "Yes, we specialize in Audit for MongoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0215",
+        "question": "Do you provide Performance Tuning for MongoDB?",
+        "variations": [
+            "MongoDB Performance Tuning services",
+            "Help with MongoDB Performance Tuning",
+            "Can you performance tuning my MongoDB app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for MongoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0216",
+        "question": "Do you provide Consulting for PostgreSQL?",
+        "variations": [
+            "PostgreSQL Consulting services",
+            "Help with PostgreSQL Consulting",
+            "Can you consulting my PostgreSQL app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for PostgreSQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0217",
+        "question": "Do you provide Migration for PostgreSQL?",
+        "variations": [
+            "PostgreSQL Migration services",
+            "Help with PostgreSQL Migration",
+            "Can you migration my PostgreSQL app?"
+        ],
+        "answer": "Yes, we specialize in Migration for PostgreSQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0218",
+        "question": "Do you provide Audit for PostgreSQL?",
+        "variations": [
+            "PostgreSQL Audit services",
+            "Help with PostgreSQL Audit",
+            "Can you audit my PostgreSQL app?"
+        ],
+        "answer": "Yes, we specialize in Audit for PostgreSQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0219",
+        "question": "Do you provide Performance Tuning for PostgreSQL?",
+        "variations": [
+            "PostgreSQL Performance Tuning services",
+            "Help with PostgreSQL Performance Tuning",
+            "Can you performance tuning my PostgreSQL app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for PostgreSQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0220",
+        "question": "Do you provide Consulting for MySQL?",
+        "variations": [
+            "MySQL Consulting services",
+            "Help with MySQL Consulting",
+            "Can you consulting my MySQL app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for MySQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0221",
+        "question": "Do you provide Migration for MySQL?",
+        "variations": [
+            "MySQL Migration services",
+            "Help with MySQL Migration",
+            "Can you migration my MySQL app?"
+        ],
+        "answer": "Yes, we specialize in Migration for MySQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0222",
+        "question": "Do you provide Audit for MySQL?",
+        "variations": [
+            "MySQL Audit services",
+            "Help with MySQL Audit",
+            "Can you audit my MySQL app?"
+        ],
+        "answer": "Yes, we specialize in Audit for MySQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0223",
+        "question": "Do you provide Performance Tuning for MySQL?",
+        "variations": [
+            "MySQL Performance Tuning services",
+            "Help with MySQL Performance Tuning",
+            "Can you performance tuning my MySQL app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for MySQL applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0224",
+        "question": "Do you provide Consulting for Redis?",
+        "variations": [
+            "Redis Consulting services",
+            "Help with Redis Consulting",
+            "Can you consulting my Redis app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Redis applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0225",
+        "question": "Do you provide Migration for Redis?",
+        "variations": [
+            "Redis Migration services",
+            "Help with Redis Migration",
+            "Can you migration my Redis app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Redis applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0226",
+        "question": "Do you provide Audit for Redis?",
+        "variations": [
+            "Redis Audit services",
+            "Help with Redis Audit",
+            "Can you audit my Redis app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Redis applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0227",
+        "question": "Do you provide Performance Tuning for Redis?",
+        "variations": [
+            "Redis Performance Tuning services",
+            "Help with Redis Performance Tuning",
+            "Can you performance tuning my Redis app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Redis applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0228",
+        "question": "Do you provide Consulting for Firebase?",
+        "variations": [
+            "Firebase Consulting services",
+            "Help with Firebase Consulting",
+            "Can you consulting my Firebase app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Firebase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0229",
+        "question": "Do you provide Migration for Firebase?",
+        "variations": [
+            "Firebase Migration services",
+            "Help with Firebase Migration",
+            "Can you migration my Firebase app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Firebase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0230",
+        "question": "Do you provide Audit for Firebase?",
+        "variations": [
+            "Firebase Audit services",
+            "Help with Firebase Audit",
+            "Can you audit my Firebase app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Firebase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0231",
+        "question": "Do you provide Performance Tuning for Firebase?",
+        "variations": [
+            "Firebase Performance Tuning services",
+            "Help with Firebase Performance Tuning",
+            "Can you performance tuning my Firebase app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Firebase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0232",
+        "question": "Do you provide Consulting for Supabase?",
+        "variations": [
+            "Supabase Consulting services",
+            "Help with Supabase Consulting",
+            "Can you consulting my Supabase app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Supabase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0233",
+        "question": "Do you provide Migration for Supabase?",
+        "variations": [
+            "Supabase Migration services",
+            "Help with Supabase Migration",
+            "Can you migration my Supabase app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Supabase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0234",
+        "question": "Do you provide Audit for Supabase?",
+        "variations": [
+            "Supabase Audit services",
+            "Help with Supabase Audit",
+            "Can you audit my Supabase app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Supabase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0235",
+        "question": "Do you provide Performance Tuning for Supabase?",
+        "variations": [
+            "Supabase Performance Tuning services",
+            "Help with Supabase Performance Tuning",
+            "Can you performance tuning my Supabase app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Supabase applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0236",
+        "question": "Do you provide Consulting for DynamoDB?",
+        "variations": [
+            "DynamoDB Consulting services",
+            "Help with DynamoDB Consulting",
+            "Can you consulting my DynamoDB app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for DynamoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0237",
+        "question": "Do you provide Migration for DynamoDB?",
+        "variations": [
+            "DynamoDB Migration services",
+            "Help with DynamoDB Migration",
+            "Can you migration my DynamoDB app?"
+        ],
+        "answer": "Yes, we specialize in Migration for DynamoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0238",
+        "question": "Do you provide Audit for DynamoDB?",
+        "variations": [
+            "DynamoDB Audit services",
+            "Help with DynamoDB Audit",
+            "Can you audit my DynamoDB app?"
+        ],
+        "answer": "Yes, we specialize in Audit for DynamoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0239",
+        "question": "Do you provide Performance Tuning for DynamoDB?",
+        "variations": [
+            "DynamoDB Performance Tuning services",
+            "Help with DynamoDB Performance Tuning",
+            "Can you performance tuning my DynamoDB app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for DynamoDB applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0240",
+        "question": "Do you provide Consulting for AWS?",
+        "variations": [
+            "AWS Consulting services",
+            "Help with AWS Consulting",
+            "Can you consulting my AWS app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for AWS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0241",
+        "question": "Do you provide Migration for AWS?",
+        "variations": [
+            "AWS Migration services",
+            "Help with AWS Migration",
+            "Can you migration my AWS app?"
+        ],
+        "answer": "Yes, we specialize in Migration for AWS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0242",
+        "question": "Do you provide Audit for AWS?",
+        "variations": [
+            "AWS Audit services",
+            "Help with AWS Audit",
+            "Can you audit my AWS app?"
+        ],
+        "answer": "Yes, we specialize in Audit for AWS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0243",
+        "question": "Do you provide Performance Tuning for AWS?",
+        "variations": [
+            "AWS Performance Tuning services",
+            "Help with AWS Performance Tuning",
+            "Can you performance tuning my AWS app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for AWS applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0244",
+        "question": "Do you provide Consulting for Azure?",
+        "variations": [
+            "Azure Consulting services",
+            "Help with Azure Consulting",
+            "Can you consulting my Azure app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Azure applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0245",
+        "question": "Do you provide Migration for Azure?",
+        "variations": [
+            "Azure Migration services",
+            "Help with Azure Migration",
+            "Can you migration my Azure app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Azure applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0246",
+        "question": "Do you provide Audit for Azure?",
+        "variations": [
+            "Azure Audit services",
+            "Help with Azure Audit",
+            "Can you audit my Azure app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Azure applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0247",
+        "question": "Do you provide Performance Tuning for Azure?",
+        "variations": [
+            "Azure Performance Tuning services",
+            "Help with Azure Performance Tuning",
+            "Can you performance tuning my Azure app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Azure applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0248",
+        "question": "Do you provide Consulting for GCP?",
+        "variations": [
+            "GCP Consulting services",
+            "Help with GCP Consulting",
+            "Can you consulting my GCP app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for GCP applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0249",
+        "question": "Do you provide Migration for GCP?",
+        "variations": [
+            "GCP Migration services",
+            "Help with GCP Migration",
+            "Can you migration my GCP app?"
+        ],
+        "answer": "Yes, we specialize in Migration for GCP applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0250",
+        "question": "Do you provide Audit for GCP?",
+        "variations": [
+            "GCP Audit services",
+            "Help with GCP Audit",
+            "Can you audit my GCP app?"
+        ],
+        "answer": "Yes, we specialize in Audit for GCP applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0251",
+        "question": "Do you provide Performance Tuning for GCP?",
+        "variations": [
+            "GCP Performance Tuning services",
+            "Help with GCP Performance Tuning",
+            "Can you performance tuning my GCP app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for GCP applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0252",
+        "question": "Do you provide Consulting for Docker?",
+        "variations": [
+            "Docker Consulting services",
+            "Help with Docker Consulting",
+            "Can you consulting my Docker app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Docker applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0253",
+        "question": "Do you provide Migration for Docker?",
+        "variations": [
+            "Docker Migration services",
+            "Help with Docker Migration",
+            "Can you migration my Docker app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Docker applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0254",
+        "question": "Do you provide Audit for Docker?",
+        "variations": [
+            "Docker Audit services",
+            "Help with Docker Audit",
+            "Can you audit my Docker app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Docker applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0255",
+        "question": "Do you provide Performance Tuning for Docker?",
+        "variations": [
+            "Docker Performance Tuning services",
+            "Help with Docker Performance Tuning",
+            "Can you performance tuning my Docker app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Docker applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0256",
+        "question": "Do you provide Consulting for Kubernetes?",
+        "variations": [
+            "Kubernetes Consulting services",
+            "Help with Kubernetes Consulting",
+            "Can you consulting my Kubernetes app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Kubernetes applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0257",
+        "question": "Do you provide Migration for Kubernetes?",
+        "variations": [
+            "Kubernetes Migration services",
+            "Help with Kubernetes Migration",
+            "Can you migration my Kubernetes app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Kubernetes applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0258",
+        "question": "Do you provide Audit for Kubernetes?",
+        "variations": [
+            "Kubernetes Audit services",
+            "Help with Kubernetes Audit",
+            "Can you audit my Kubernetes app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Kubernetes applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0259",
+        "question": "Do you provide Performance Tuning for Kubernetes?",
+        "variations": [
+            "Kubernetes Performance Tuning services",
+            "Help with Kubernetes Performance Tuning",
+            "Can you performance tuning my Kubernetes app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Kubernetes applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0260",
+        "question": "Do you provide Consulting for CI/CD?",
+        "variations": [
+            "CI/CD Consulting services",
+            "Help with CI/CD Consulting",
+            "Can you consulting my CI/CD app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for CI/CD applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0261",
+        "question": "Do you provide Migration for CI/CD?",
+        "variations": [
+            "CI/CD Migration services",
+            "Help with CI/CD Migration",
+            "Can you migration my CI/CD app?"
+        ],
+        "answer": "Yes, we specialize in Migration for CI/CD applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0262",
+        "question": "Do you provide Audit for CI/CD?",
+        "variations": [
+            "CI/CD Audit services",
+            "Help with CI/CD Audit",
+            "Can you audit my CI/CD app?"
+        ],
+        "answer": "Yes, we specialize in Audit for CI/CD applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0263",
+        "question": "Do you provide Performance Tuning for CI/CD?",
+        "variations": [
+            "CI/CD Performance Tuning services",
+            "Help with CI/CD Performance Tuning",
+            "Can you performance tuning my CI/CD app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for CI/CD applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0264",
+        "question": "Do you provide Consulting for Git?",
+        "variations": [
+            "Git Consulting services",
+            "Help with Git Consulting",
+            "Can you consulting my Git app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Git applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0265",
+        "question": "Do you provide Migration for Git?",
+        "variations": [
+            "Git Migration services",
+            "Help with Git Migration",
+            "Can you migration my Git app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Git applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0266",
+        "question": "Do you provide Audit for Git?",
+        "variations": [
+            "Git Audit services",
+            "Help with Git Audit",
+            "Can you audit my Git app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Git applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0267",
+        "question": "Do you provide Performance Tuning for Git?",
+        "variations": [
+            "Git Performance Tuning services",
+            "Help with Git Performance Tuning",
+            "Can you performance tuning my Git app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Git applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0268",
+        "question": "Do you provide Consulting for GitHub?",
+        "variations": [
+            "GitHub Consulting services",
+            "Help with GitHub Consulting",
+            "Can you consulting my GitHub app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for GitHub applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0269",
+        "question": "Do you provide Migration for GitHub?",
+        "variations": [
+            "GitHub Migration services",
+            "Help with GitHub Migration",
+            "Can you migration my GitHub app?"
+        ],
+        "answer": "Yes, we specialize in Migration for GitHub applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0270",
+        "question": "Do you provide Audit for GitHub?",
+        "variations": [
+            "GitHub Audit services",
+            "Help with GitHub Audit",
+            "Can you audit my GitHub app?"
+        ],
+        "answer": "Yes, we specialize in Audit for GitHub applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0271",
+        "question": "Do you provide Performance Tuning for GitHub?",
+        "variations": [
+            "GitHub Performance Tuning services",
+            "Help with GitHub Performance Tuning",
+            "Can you performance tuning my GitHub app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for GitHub applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0272",
+        "question": "Do you provide Consulting for GitLab?",
+        "variations": [
+            "GitLab Consulting services",
+            "Help with GitLab Consulting",
+            "Can you consulting my GitLab app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for GitLab applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0273",
+        "question": "Do you provide Migration for GitLab?",
+        "variations": [
+            "GitLab Migration services",
+            "Help with GitLab Migration",
+            "Can you migration my GitLab app?"
+        ],
+        "answer": "Yes, we specialize in Migration for GitLab applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0274",
+        "question": "Do you provide Audit for GitLab?",
+        "variations": [
+            "GitLab Audit services",
+            "Help with GitLab Audit",
+            "Can you audit my GitLab app?"
+        ],
+        "answer": "Yes, we specialize in Audit for GitLab applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0275",
+        "question": "Do you provide Performance Tuning for GitLab?",
+        "variations": [
+            "GitLab Performance Tuning services",
+            "Help with GitLab Performance Tuning",
+            "Can you performance tuning my GitLab app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for GitLab applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0276",
+        "question": "Do you provide Consulting for Jenkins?",
+        "variations": [
+            "Jenkins Consulting services",
+            "Help with Jenkins Consulting",
+            "Can you consulting my Jenkins app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Jenkins applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0277",
+        "question": "Do you provide Migration for Jenkins?",
+        "variations": [
+            "Jenkins Migration services",
+            "Help with Jenkins Migration",
+            "Can you migration my Jenkins app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Jenkins applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0278",
+        "question": "Do you provide Audit for Jenkins?",
+        "variations": [
+            "Jenkins Audit services",
+            "Help with Jenkins Audit",
+            "Can you audit my Jenkins app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Jenkins applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0279",
+        "question": "Do you provide Performance Tuning for Jenkins?",
+        "variations": [
+            "Jenkins Performance Tuning services",
+            "Help with Jenkins Performance Tuning",
+            "Can you performance tuning my Jenkins app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Jenkins applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0280",
+        "question": "Do you provide Consulting for Terraform?",
+        "variations": [
+            "Terraform Consulting services",
+            "Help with Terraform Consulting",
+            "Can you consulting my Terraform app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Terraform applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0281",
+        "question": "Do you provide Migration for Terraform?",
+        "variations": [
+            "Terraform Migration services",
+            "Help with Terraform Migration",
+            "Can you migration my Terraform app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Terraform applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0282",
+        "question": "Do you provide Audit for Terraform?",
+        "variations": [
+            "Terraform Audit services",
+            "Help with Terraform Audit",
+            "Can you audit my Terraform app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Terraform applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0283",
+        "question": "Do you provide Performance Tuning for Terraform?",
+        "variations": [
+            "Terraform Performance Tuning services",
+            "Help with Terraform Performance Tuning",
+            "Can you performance tuning my Terraform app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Terraform applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0284",
+        "question": "Do you provide Consulting for Nginx?",
+        "variations": [
+            "Nginx Consulting services",
+            "Help with Nginx Consulting",
+            "Can you consulting my Nginx app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Nginx applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0285",
+        "question": "Do you provide Migration for Nginx?",
+        "variations": [
+            "Nginx Migration services",
+            "Help with Nginx Migration",
+            "Can you migration my Nginx app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Nginx applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0286",
+        "question": "Do you provide Audit for Nginx?",
+        "variations": [
+            "Nginx Audit services",
+            "Help with Nginx Audit",
+            "Can you audit my Nginx app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Nginx applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0287",
+        "question": "Do you provide Performance Tuning for Nginx?",
+        "variations": [
+            "Nginx Performance Tuning services",
+            "Help with Nginx Performance Tuning",
+            "Can you performance tuning my Nginx app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Nginx applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0288",
+        "question": "Do you provide Consulting for GenAI?",
+        "variations": [
+            "GenAI Consulting services",
+            "Help with GenAI Consulting",
+            "Can you consulting my GenAI app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for GenAI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0289",
+        "question": "Do you provide Migration for GenAI?",
+        "variations": [
+            "GenAI Migration services",
+            "Help with GenAI Migration",
+            "Can you migration my GenAI app?"
+        ],
+        "answer": "Yes, we specialize in Migration for GenAI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0290",
+        "question": "Do you provide Audit for GenAI?",
+        "variations": [
+            "GenAI Audit services",
+            "Help with GenAI Audit",
+            "Can you audit my GenAI app?"
+        ],
+        "answer": "Yes, we specialize in Audit for GenAI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0291",
+        "question": "Do you provide Performance Tuning for GenAI?",
+        "variations": [
+            "GenAI Performance Tuning services",
+            "Help with GenAI Performance Tuning",
+            "Can you performance tuning my GenAI app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for GenAI applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0292",
+        "question": "Do you provide Consulting for LLMs?",
+        "variations": [
+            "LLMs Consulting services",
+            "Help with LLMs Consulting",
+            "Can you consulting my LLMs app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for LLMs applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0293",
+        "question": "Do you provide Migration for LLMs?",
+        "variations": [
+            "LLMs Migration services",
+            "Help with LLMs Migration",
+            "Can you migration my LLMs app?"
+        ],
+        "answer": "Yes, we specialize in Migration for LLMs applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0294",
+        "question": "Do you provide Audit for LLMs?",
+        "variations": [
+            "LLMs Audit services",
+            "Help with LLMs Audit",
+            "Can you audit my LLMs app?"
+        ],
+        "answer": "Yes, we specialize in Audit for LLMs applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0295",
+        "question": "Do you provide Performance Tuning for LLMs?",
+        "variations": [
+            "LLMs Performance Tuning services",
+            "Help with LLMs Performance Tuning",
+            "Can you performance tuning my LLMs app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for LLMs applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0296",
+        "question": "Do you provide Consulting for OpenAI API?",
+        "variations": [
+            "OpenAI API Consulting services",
+            "Help with OpenAI API Consulting",
+            "Can you consulting my OpenAI API app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for OpenAI API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0297",
+        "question": "Do you provide Migration for OpenAI API?",
+        "variations": [
+            "OpenAI API Migration services",
+            "Help with OpenAI API Migration",
+            "Can you migration my OpenAI API app?"
+        ],
+        "answer": "Yes, we specialize in Migration for OpenAI API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0298",
+        "question": "Do you provide Audit for OpenAI API?",
+        "variations": [
+            "OpenAI API Audit services",
+            "Help with OpenAI API Audit",
+            "Can you audit my OpenAI API app?"
+        ],
+        "answer": "Yes, we specialize in Audit for OpenAI API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0299",
+        "question": "Do you provide Performance Tuning for OpenAI API?",
+        "variations": [
+            "OpenAI API Performance Tuning services",
+            "Help with OpenAI API Performance Tuning",
+            "Can you performance tuning my OpenAI API app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for OpenAI API applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0300",
+        "question": "Do you provide Consulting for Hugging Face?",
+        "variations": [
+            "Hugging Face Consulting services",
+            "Help with Hugging Face Consulting",
+            "Can you consulting my Hugging Face app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Hugging Face applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0301",
+        "question": "Do you provide Migration for Hugging Face?",
+        "variations": [
+            "Hugging Face Migration services",
+            "Help with Hugging Face Migration",
+            "Can you migration my Hugging Face app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Hugging Face applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0302",
+        "question": "Do you provide Audit for Hugging Face?",
+        "variations": [
+            "Hugging Face Audit services",
+            "Help with Hugging Face Audit",
+            "Can you audit my Hugging Face app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Hugging Face applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0303",
+        "question": "Do you provide Performance Tuning for Hugging Face?",
+        "variations": [
+            "Hugging Face Performance Tuning services",
+            "Help with Hugging Face Performance Tuning",
+            "Can you performance tuning my Hugging Face app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Hugging Face applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0304",
+        "question": "Do you provide Consulting for LangChain?",
+        "variations": [
+            "LangChain Consulting services",
+            "Help with LangChain Consulting",
+            "Can you consulting my LangChain app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for LangChain applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0305",
+        "question": "Do you provide Migration for LangChain?",
+        "variations": [
+            "LangChain Migration services",
+            "Help with LangChain Migration",
+            "Can you migration my LangChain app?"
+        ],
+        "answer": "Yes, we specialize in Migration for LangChain applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0306",
+        "question": "Do you provide Audit for LangChain?",
+        "variations": [
+            "LangChain Audit services",
+            "Help with LangChain Audit",
+            "Can you audit my LangChain app?"
+        ],
+        "answer": "Yes, we specialize in Audit for LangChain applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0307",
+        "question": "Do you provide Performance Tuning for LangChain?",
+        "variations": [
+            "LangChain Performance Tuning services",
+            "Help with LangChain Performance Tuning",
+            "Can you performance tuning my LangChain app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for LangChain applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0308",
+        "question": "Do you provide Consulting for RAG?",
+        "variations": [
+            "RAG Consulting services",
+            "Help with RAG Consulting",
+            "Can you consulting my RAG app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for RAG applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0309",
+        "question": "Do you provide Migration for RAG?",
+        "variations": [
+            "RAG Migration services",
+            "Help with RAG Migration",
+            "Can you migration my RAG app?"
+        ],
+        "answer": "Yes, we specialize in Migration for RAG applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0310",
+        "question": "Do you provide Audit for RAG?",
+        "variations": [
+            "RAG Audit services",
+            "Help with RAG Audit",
+            "Can you audit my RAG app?"
+        ],
+        "answer": "Yes, we specialize in Audit for RAG applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0311",
+        "question": "Do you provide Performance Tuning for RAG?",
+        "variations": [
+            "RAG Performance Tuning services",
+            "Help with RAG Performance Tuning",
+            "Can you performance tuning my RAG app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for RAG applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0312",
+        "question": "Do you provide Consulting for Vector Databases?",
+        "variations": [
+            "Vector Databases Consulting services",
+            "Help with Vector Databases Consulting",
+            "Can you consulting my Vector Databases app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Vector Databases applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0313",
+        "question": "Do you provide Migration for Vector Databases?",
+        "variations": [
+            "Vector Databases Migration services",
+            "Help with Vector Databases Migration",
+            "Can you migration my Vector Databases app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Vector Databases applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0314",
+        "question": "Do you provide Audit for Vector Databases?",
+        "variations": [
+            "Vector Databases Audit services",
+            "Help with Vector Databases Audit",
+            "Can you audit my Vector Databases app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Vector Databases applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0315",
+        "question": "Do you provide Performance Tuning for Vector Databases?",
+        "variations": [
+            "Vector Databases Performance Tuning services",
+            "Help with Vector Databases Performance Tuning",
+            "Can you performance tuning my Vector Databases app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Vector Databases applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0316",
+        "question": "Do you provide Consulting for Pinecone?",
+        "variations": [
+            "Pinecone Consulting services",
+            "Help with Pinecone Consulting",
+            "Can you consulting my Pinecone app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for Pinecone applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0317",
+        "question": "Do you provide Migration for Pinecone?",
+        "variations": [
+            "Pinecone Migration services",
+            "Help with Pinecone Migration",
+            "Can you migration my Pinecone app?"
+        ],
+        "answer": "Yes, we specialize in Migration for Pinecone applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0318",
+        "question": "Do you provide Audit for Pinecone?",
+        "variations": [
+            "Pinecone Audit services",
+            "Help with Pinecone Audit",
+            "Can you audit my Pinecone app?"
+        ],
+        "answer": "Yes, we specialize in Audit for Pinecone applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0319",
+        "question": "Do you provide Performance Tuning for Pinecone?",
+        "variations": [
+            "Pinecone Performance Tuning services",
+            "Help with Pinecone Performance Tuning",
+            "Can you performance tuning my Pinecone app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for Pinecone applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0320",
+        "question": "Do you provide Consulting for TensorFlow?",
+        "variations": [
+            "TensorFlow Consulting services",
+            "Help with TensorFlow Consulting",
+            "Can you consulting my TensorFlow app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for TensorFlow applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0321",
+        "question": "Do you provide Migration for TensorFlow?",
+        "variations": [
+            "TensorFlow Migration services",
+            "Help with TensorFlow Migration",
+            "Can you migration my TensorFlow app?"
+        ],
+        "answer": "Yes, we specialize in Migration for TensorFlow applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0322",
+        "question": "Do you provide Audit for TensorFlow?",
+        "variations": [
+            "TensorFlow Audit services",
+            "Help with TensorFlow Audit",
+            "Can you audit my TensorFlow app?"
+        ],
+        "answer": "Yes, we specialize in Audit for TensorFlow applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0323",
+        "question": "Do you provide Performance Tuning for TensorFlow?",
+        "variations": [
+            "TensorFlow Performance Tuning services",
+            "Help with TensorFlow Performance Tuning",
+            "Can you performance tuning my TensorFlow app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for TensorFlow applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0324",
+        "question": "Do you provide Consulting for PyTorch?",
+        "variations": [
+            "PyTorch Consulting services",
+            "Help with PyTorch Consulting",
+            "Can you consulting my PyTorch app?"
+        ],
+        "answer": "Yes, we specialize in Consulting for PyTorch applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0325",
+        "question": "Do you provide Migration for PyTorch?",
+        "variations": [
+            "PyTorch Migration services",
+            "Help with PyTorch Migration",
+            "Can you migration my PyTorch app?"
+        ],
+        "answer": "Yes, we specialize in Migration for PyTorch applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0326",
+        "question": "Do you provide Audit for PyTorch?",
+        "variations": [
+            "PyTorch Audit services",
+            "Help with PyTorch Audit",
+            "Can you audit my PyTorch app?"
+        ],
+        "answer": "Yes, we specialize in Audit for PyTorch applications, ensuring they are optimized, secure, and scalable."
+    },
+    {
+        "id": "faq_0327",
+        "question": "Do you provide Performance Tuning for PyTorch?",
+        "variations": [
+            "PyTorch Performance Tuning services",
+            "Help with PyTorch Performance Tuning",
+            "Can you performance tuning my PyTorch app?"
+        ],
+        "answer": "Yes, we specialize in Performance Tuning for PyTorch applications, ensuring they are optimized, secure, and scalable."
+    }
+]

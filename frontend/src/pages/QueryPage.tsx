@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import BACKEND_API from '../api.ts';
 interface Metric {
     time_seconds: number;
     tokens: number;
@@ -27,7 +27,7 @@ const QueryPage: React.FC = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
 
-    const apiBase = 'http://localhost:8000';
+    const apiBase = BACKEND_API;
 
     const handleQuery = async () => {
         if (!query.trim()) return;

@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import BACKEND_API from '../api';
 
 const AddContentPage: React.FC = () => {
     const [text, setText] = useState('');
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
 
-    const apiBase = 'http://localhost:8000';
+    const apiBase = BACKEND_API;
 
     const showMessage = (type: string, text: string) => {
         setMessage({ type, text });

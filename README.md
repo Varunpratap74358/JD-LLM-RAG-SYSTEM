@@ -74,10 +74,10 @@ Follow these instructions to run the project locally.
 5.  **Run the Backend Server:**
     ```bash
     # Make sure venv is active
-    uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+    .\venv\Scripts\activate
+    uvicorn main:app --reload
     ```
-    - The API will be available at `http://localhost:8000`.
-    - Swagger UI documentation: `http://localhost:8000/docs`
+    - The API will be available at `http://localhost:8000`
 
 ---
 
