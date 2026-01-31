@@ -1,119 +1,177 @@
 import json
 import re
 import math
+import hashlib
+import asyncio
+from datetime import datetime
 from pathlib import Path
 from typing import Optional, List, Dict
+
 try:
     from backend.services.ai_service import ai_service
+    from backend.utils.database import mongo_db
 except ModuleNotFoundError:
     from services.ai_service import ai_service
+    from utils.database import mongo_db
 
 class FAQService:
     def __init__(self):
         self.faqs = []
         self.faq_embeddings = [] # List of (embedding, faq_entry) tuples
         self.exact_match_map = {}
-        self.exact_match_map = {}
-        # Layer 3: Confidence Routing Threshold
-        self.similarity_threshold = 0.70 
+        self.similarity_threshold = 0.75 
+        self.collection_name = "faq_vector_store"
         
-        # Load FAQs
-        self._load_faqs()
-        
-        # Pre-compute Embeddings (on startup)
-        # In a real production app with 10k items, this would be loaded from a Vector DB.
-        # For 25 items, in-memory is fine and ensures <100ms response.
+        # Load JSON config immediately
+        self._load_json_config()
         
     async def initialize(self):
         print("Initializing FAQ Service...")
-        # Reload FAQs from disk to ensure we have the latest version if file changed
-        self._load_faqs()
+        
+        # 1. Load FAQs from disk
+        self._load_json_config()
         
         if not self.faqs:
-            print("WARNING: FAQ Service initialized with 0 items. Check backend/data/faqs.json")
-            return 
+            print("WARNING: No FAQs loaded from JSON.") 
+            
+        # 2. Generate Greeting FAQs (Dynamic)
+        greeting_faqs = self._generate_greeting_faqs()
+        print(f"Generated {len(greeting_faqs)} greeting variations.")
+        
+        # 3. Merge Lists
+        all_items = self.faqs + greeting_faqs
+        
+        # 4. Compute/Load Embeddings
+        print(f"Processing embeddings for {len(all_items)} total items (Persistent Mode)...")
+        await self._sync_embeddings(all_items)
+        
+        print(f"FAQ Service Ready: {len(self.faq_embeddings)} vectors loaded in memory.")
 
-        print(f"Computing embeddings for {len(self.faqs)} FAQs...")
-        import asyncio
-        # Run in a separate thread so we don't block the async event loop
-        await asyncio.to_thread(self._compute_embeddings)
-        print(f"FAQ Service Ready: {len(self.faqs)} items, {len(self.faq_embeddings)} vectors.")
-
-    def _load_faqs(self):
+    def _load_json_config(self):
         try:
-            # Resolve path relative to this file
             path = Path(__file__).parent.parent / "data" / "faqs.json"
             if not path.exists():
-                print(f"ERROR: FAQ file not found at {path}")
+                # Fallback check
+                path = Path(__file__).parent.parent / "data" / "faqs_generated.json"
+                
+            if not path.exists():
+                print(f"ERROR: No FAQ JSON found.")
                 return
 
             with open(path, "r", encoding="utf-8") as f:
                 self.faqs = json.load(f)
-                
+            
+            # Build exact match map for JSON items
             self.exact_match_map = {}
             for entry in self.faqs:
-                # Populate exact match map (case-insensitive)
                 questions = [entry["question"]] + entry.get("variations", [])
                 for q in questions:
-                    normalized_q = self._normalize(q)
-                    self.exact_match_map[normalized_q] = entry
-            print(f"Loaded {len(self.faqs)} FAQs from disk.")
+                    normalized = self._normalize(q)
+                    self.exact_match_map[normalized] = entry
                     
-        except json.JSONDecodeError as e:
-            print(f"CRITICAL ERROR: backend/data/faqs.json is invalid JSON! \nError at line {e.lineno}, col {e.colno}: {e.msg}")
-            self.faqs = []
         except Exception as e:
             print(f"Error loading FAQs: {e}")
             self.faqs = []
 
-    def _compute_embeddings(self):
-        """
-        Pre-computes embeddings for all FAQ questions and variations.
-        This is a 'warm-up' step.
-        """
-        if not self.faqs:
-            return
+    def _generate_greeting_faqs(self) -> List[Dict]:
+        """Generates 200+ greeting variations."""
+        base_greetings = [
+            "hi", "hello", "hey", "good morning", "good afternoon", "good evening", 
+            "namaste", "yo", "hiya", "howdy", "greetings", "what's up", "sup", "heya",
+            "hola", "bonjour", "hallo", "gday", "what is up", "hey there", "hello there"
+        ]
+        
+        modifiers = ["", "!", ".", " there", " bot", " ai", " assistant", " friend", " buddy", " mate", " sir", " maam"]
+        typos = ["hy", "hlo", "heyy", "heyyy", "hii", "hiii", "hlw", "hie"]
+        
+        greetings = []
+        
+        # 1. Combine base + modifiers
+        for g in base_greetings:
+            for m in modifiers:
+                txt = f"{g}{m}".strip()
+                greetings.append(txt)
+                
+        # 2. Add Typos
+        greetings.extend(typos)
+        
+        # 3. Construct FAQ Entries
+        faq_entries = []
+        for i, g_text in enumerate(greetings, 1):
+            entry = {
+                "id": f"greeting_gen_{i}",
+                "question": g_text,
+                "variations": [],
+                "answer": "{{TIME_AWARE_GREETING}}",
+                "type": "greeting"
+            }
+            faq_entries.append(entry)
+            
+            # Add to exact match map
+            normalized = self._normalize(g_text)
+            self.exact_match_map[normalized] = entry
+            
+        return faq_entries
 
-        count = 0
-        for entry in self.faqs:
-            # Embed the main question
-            # We treat FAQ questions as 'documents' to be retrieved
-            try:
-                # 1. Embed the primary question
-                emb = ai_service.get_embeddings(entry["question"])
-                self.faq_embeddings.append((emb, entry))
+    async def _sync_embeddings(self, items: List[Dict]):
+        """
+        Iterates through items. 
+        Checks MongoDB for existing embedding (ID + Hash match).
+        If missing, generates and saves.
+        Populates self.faq_embeddings.
+        """
+        self.faq_embeddings = []
+        new_embeddings_count = 0
+        
+        for entry in items:
+            # Create a deterministic content hash
+            content_str = entry["question"]
+            content_hash = hashlib.sha256(content_str.encode()).hexdigest()
+            
+            # 1. Check DB
+            existing = await mongo_db.get_document(
+                self.collection_name, 
+                {"faq_id": entry["id"], "content_hash": content_hash}
+            )
+            
+            emb_vector = None
+            
+            if existing:
+                # HIT: Load from DB
+                emb_vector = existing["embedding"]
+            else:
+                # MISS: Generate
+                try:
+                    # Rate limit safety (simple sleep if processing huge batch)
+                    # For 200 items, Gemini is fast enough.
+                    emb_vector = ai_service.get_embeddings(entry["question"])
+                    new_embeddings_count += 1
+                    
+                    # Save to DB
+                    await mongo_db.insert_document(self.collection_name, {
+                        "faq_id": entry["id"],
+                        "content_hash": content_hash,
+                        "embedding": emb_vector,
+                        "text": entry["question"],
+                        "updated_at": datetime.utcnow()
+                    })
+                except Exception as e:
+                    print(f"Failed to embed {entry['id']}: {e}")
+                    continue
+            
+            # Add to in-memory index
+            if emb_vector:
+                self.faq_embeddings.append((emb_vector, entry))
                 
-                # 2. Embed variations (optional, but improves accuracy)
-                # To save startup time/API calls, we might skip this or limit it.
-                # For 25 FAQs x 3 variations = ~75 calls. feasible.
-                for var in entry.get("variations", []):
-                     emb_var = ai_service.get_embeddings(var)
-                     self.faq_embeddings.append((emb_var, entry))
-                     
-                count += 1
-            except Exception as e:
-                print(f"Failed to embed FAQ {entry['id']}: {e}")
-                
-        print(f"Computed embeddings for {len(self.faq_embeddings)} entry points.")
+        if new_embeddings_count > 0:
+            print(f"Generated {new_embeddings_count} NEW embeddings. Loaded rest from DB.")
+        else:
+            print("All embeddings loaded from DB (Zero cost).")
 
     def _normalize(self, text: str) -> str:
-        # Layer 1: Query Normalization
-        # 1. Lowercase
         text = text.lower()
-        # 2. Remove punctuation (keep alphanumeric and spaces)
         text = re.sub(r'[^\w\s]', '', text)
-        # 3. Remove filler words (your, the, about, etc.)
-        # Be careful not to remove 'question' words if they are important, 
-        # but 'tell me about' is largely noise for matching 'company'.
-        fillers = {'the', 'a', 'an', 'is', 'are', 'was', 'were', 'of', 'in', 'on', 'at', 'to', 'for', 'by', 'with', 'about', 'your', 'my', 'our', 'please', 'tell', 'me'}
-        words = text.split()
-        filtered_words = [w for w in words if w not in fillers]
-        
-        # If we stripped everything (e.g. input was just "about"), fall back to original stripped text
-        if not filtered_words:
-            return text.strip()
-            
-        return " ".join(filtered_words)
+        return text.strip()
 
     def _cosine_similarity(self, vec1, vec2):
         dot_product = sum(a * b for a, b in zip(vec1, vec2))
@@ -123,26 +181,33 @@ class FAQService:
             return 0.0
         return dot_product / (magnitude1 * magnitude2)
 
+    def _get_time_aware_greeting(self) -> str:
+        """Returns Good Morning/Afternoon/Evening based on server time."""
+        hour = datetime.now().hour
+        if 5 <= hour < 12:
+            return "Good morning! How can I help you today?"
+        elif 12 <= hour < 17:
+            return "Good afternoon! How can I help you today?"
+        else:
+            return "Good evening! How can I help you today?"
+
     async def get_answer(self, query: str) -> Optional[Dict]:
-        """
-        Returns an answer if confidence is high, else None.
-        """
-        # 1. Exact Match (O(1))
         normalized_q = self._normalize(query)
+        
+        # 1. Exact Match
         if normalized_q in self.exact_match_map:
+            match = self.exact_match_map[normalized_q]
+            answer = match["answer"]
+            
+            if answer == "{{TIME_AWARE_GREETING}}":
+                answer = self._get_time_aware_greeting()
+                
             print(f"FAQ HIT (Exact): {query}")
-            return {
-                "answer": self.exact_match_map[normalized_q]["answer"],
-                "source": "faq_exact",
-                "questions_related": self.exact_match_map[normalized_q]["variations"]
-            }
-            
-        # 2. Semantic Match (Vector Similarity)
+            return {"answer": answer, "source": "faq_exact"}
+
+        # 2. Semantic Match
         try:
-            # Generate query embedding
-            # Layer 2: Embed Normalized Query
             query_emb = ai_service.get_query_embedding(normalized_q)
-            
             best_score = -1
             best_entry = None
             
@@ -152,15 +217,18 @@ class FAQService:
                     best_score = score
                     best_entry = entry
             
-            print(f"FAQ Best Score: {best_score} for query '{query}'")
+            print(f"FAQ Best Score: {best_score} for '{query}'")
             
             if best_score >= self.similarity_threshold:
+                answer = best_entry["answer"]
+                if answer == "{{TIME_AWARE_GREETING}}":
+                    answer = self._get_time_aware_greeting()
+                    
                 print(f"FAQ HIT (Semantic): {query} -> {best_entry['question']}")
                 return {
-                    "answer": best_entry["answer"],
+                    "answer": answer,
                     "source": "faq_semantic",
-                    "confidence": round(best_score, 4),
-                    "original_question": best_entry["question"]
+                    "confidence": round(best_score, 4)
                 }
                 
         except Exception as e:

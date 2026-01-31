@@ -151,7 +151,7 @@ If you encounter `404` errors with Gemini, it is likely due to API versioning mi
 1. **Q**: "What are the chunking parameters?"
    **A**: "The system uses a chunk size of 1000 characters with a 150-character overlap [1]." (Success: Precise)
 2. **Q**: "Who is the President of Mars?"
-   **A**: "The provided documents do not contain enough information to answer this question." (Success: Grounded)
+   **A**: "I don’t have enough information from your data to answer that right now" (Success: Grounded)
 
 ## ⚠️ Limitations & Improvements
 - **Free Tier**: Pinecone and Cohere free tiers have rate limits.

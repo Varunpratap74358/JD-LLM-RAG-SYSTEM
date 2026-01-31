@@ -96,7 +96,7 @@ class AIService:
         # Production-grade system prompt - Updated to remove citations as requested
         prompt = f"""
         You are a helpful AI assistant. Answer the following question based ONLY on the provided context.
-        If the context does not contain the answer, state: "The provided documents do not contain enough information to answer this question."
+        If the context does not contain the answer, state: "I don’t have enough information from your data to answer that right now."
         
         Context:
         {context}
