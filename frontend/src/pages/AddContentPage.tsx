@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import BACKEND_API from '../api';
+import { useAuth } from '../context/AuthContext';
 
 const AddContentPage: React.FC = () => {
     const [text, setText] = useState('');
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState({ type: '', text: '' });
+    const { token } = useAuth();
 
     const apiBase = BACKEND_API;
 
@@ -19,7 +21,10 @@ const AddContentPage: React.FC = () => {
         try {
             const res = await fetch(`${apiBase}/ingest`, {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`
+                },
                 body: JSON.stringify({
                     text,
                     source: 'UI'

@@ -1,7 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 
 const Navbar: React.FC = () => {
+    const { isAdmin, logout } = useAuth();
+
     return (
         <nav className="navbar">
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -14,12 +17,29 @@ const Navbar: React.FC = () => {
                 >
                     Query Agent
                 </NavLink>
-                <NavLink
-                    to="/add"
-                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
-                >
-                    Add Content
-                </NavLink>
+                {isAdmin && (
+                    <NavLink
+                        to="/add"
+                        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                    >
+                        Add Content
+                    </NavLink>
+                )}
+                {isAdmin ? (
+                    <button
+                        onClick={logout}
+                        style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '1rem' }}
+                    >
+                        Logout
+                    </button>
+                ) : (
+                    <NavLink
+                        to="/login"
+                        className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                    >
+                        Admin
+                    </NavLink>
+                )}
             </div>
         </nav>
     );

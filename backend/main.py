@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException, BackgroundTasks, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List
@@ -17,11 +17,13 @@ try:
     from backend.utils.vector_db import vector_db
     from backend.services.rag_service import rag_service
     from backend.services.faq_service import faq_service
+    from backend.services.auth_service import auth_service, get_admin_user, ADMIN_USERNAME, ADMIN_PASSWORD
 except ModuleNotFoundError:
     from utils.database import mongo_db
     from utils.vector_db import vector_db
     from services.rag_service import rag_service
     from services.faq_service import faq_service
+    from services.auth_service import auth_service, get_admin_user, ADMIN_USERNAME, ADMIN_PASSWORD
 
 
 
@@ -44,6 +46,10 @@ class IngestRequest(BaseModel):
 class QueryRequest(BaseModel):
     query: str
 
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
 @app.on_event("startup")
 async def startup_db_client():
     try:
@@ -61,8 +67,17 @@ async def shutdown_db_client():
 async def health_check():
     return {"status": "ok"}
 
+@app.post("/login")
+async def login(request: LoginRequest):
+    # Fixed admin credentials from .env for this assignment
+    if request.username == ADMIN_USERNAME and request.password == ADMIN_PASSWORD:
+        token = auth_service.create_access_token({"sub": request.username, "role": "admin"})
+        return {"access_token": token, "token_type": "bearer"}
+    else:
+        raise HTTPException(status_code=401, detail="Invalid credentials")
+
 @app.post("/ingest")
-async def ingest_text(request: IngestRequest):
+async def ingest_text(request: IngestRequest, admin: dict = Depends(get_admin_user)):
     try:
         # Generate title if not provided
         doc_title = request.title

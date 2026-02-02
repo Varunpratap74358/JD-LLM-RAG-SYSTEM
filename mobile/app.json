@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "96c26cb9-a938-4bdc-99f2-5e705797915a"
+      }
+    },
+    "owner": "varun_singh_74358",
+    "android": {
+      "package": "com.varun_singh_74358.miniragmobile"
+    }
+  }
+}

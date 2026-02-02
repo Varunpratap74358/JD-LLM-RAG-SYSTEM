@@ -11,3 +11,5 @@ pydantic-settings
 langchain-text-splitters
 tiktoken
 python-multipart
+PyJWT
+passlib[bcrypt]

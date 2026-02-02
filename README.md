@@ -6,8 +6,11 @@ A production-minded, end-to-end Retrieval-Augmented Generation (RAG) system buil
 
 ```mermaid
 graph TD
-    User((User)) -->|Upload/Query| FE[React Frontend]
-    FE -->|API| BE[FastAPI Backend]
+    User((User)) -->|Query| FE[React Frontend]
+    Admin((Admin)) -->|Query/Ingest| FE
+    Mobile((Mobile App)) -->|Query/Ingest| BE[FastAPI Backend]
+    FE -->|API| BE
+    BE -->|Auth| JWT[JWT RBAC]
     BE -->|Embeddings| Gemini[Gemini Embedding-004]
     BE -->|Store Metadata| Mongo[MongoDB Atlas]
     BE -->|Upsert/Search| Pinecone[Pinecone Vector DB]
@@ -69,6 +72,17 @@ Follow these instructions to run the project locally.
       # AI Models
       GOOGLE_API_KEY=your_gemini_key
       COHERE_API_KEY=your_cohere_key
+
+      # Admin Authentication
+      JWT_SECRET=your_jwt_secret
+      ADMIN_USERNAME=admin
+      ADMIN_PASSWORD=admin123
+      ```
+
+      # Admin Authentication
+      JWT_SECRET=your_jwt_secret
+      ADMIN_USERNAME=admin
+      ADMIN_PASSWORD=admin123
       ```
 
 5.  **Run the Backend Server:**
@@ -93,10 +107,15 @@ Follow these instructions to run the project locally.
     npm install
     ```
 
-3.  **Run the Development Server:**
+3.  **Run Development Server:**
     ```bash
-    npm run dev
+    # For Android Emulator
+    npm run android
+
+    # To run on your physical device via Expo Go
+    npm start
     ```
+    - Scan the QR code with your phone.
     - The app will likely run at `http://localhost:5173`.
 
 ---
@@ -142,9 +161,10 @@ If you encounter `404` errors with Gemini, it is likely due to API versioning mi
 - Direct `v1beta` URL calls
 
 ## 📋 API Endpoints
-- `GET /health`: Health check.
-- `POST /ingest`: Ingest text. (Body: `{text: string, title?: string}`)
-- `POST /query`: RAG query. (Body: `{query: string}`)
+- `GET /health`: Health check (Public).
+- `POST /login`: Admin login. (Body: `{username, password}`)
+- `POST /ingest`: Ingest text (Admin Only - Requires JWT).
+- `POST /query`: RAG query (Public).
 
 ## 📊 Evaluation (Sample Q&A)
 
@@ -153,6 +173,11 @@ If you encounter `404` errors with Gemini, it is likely due to API versioning mi
 2. **Q**: "Who is the President of Mars?"
    **A**: "I don’t have enough information from your data to answer that right now" (Success: Grounded)
 
+## 🔐 Security & RBAC
+- **Public access**: Anyone can query the RAG system and FAQs.
+- **Admin access**: Only authenticated admins with a valid JWT can add content to the knowledge base.
+- **Token Handling**: JWTs are stored in `sessionStorage` (Web) and `AsyncStorage` (Mobile) and expire after 24 hours.
+
 ## ⚠️ Limitations & Improvements
-- **Free Tier**: Pinecone and Cohere free tiers have rate limits.
-- **Future**: Add PDF/Docx parser, implement MMR for diversity, add user authentication.
+- **Security**: In production, use high-entropy secrets and a real user database with hashed passwords.
+- **Mobile**: Add deep linking and push notifications for ingestion progress.
